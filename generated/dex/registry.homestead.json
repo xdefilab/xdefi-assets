@@ -12,112 +12,112 @@
             "name": "Balancer",
             "symbol": "BAL",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
             "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
             "name": "Dai Stablecoin",
             "symbol": "DAI",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
             "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
             "name": "Maker",
             "symbol": "MKR",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
             "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
             "name": "USD Coin",
             "symbol": "USDC",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd": {
             "address": "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
             "name": "PieDAO BTC++",
             "symbol": "BTC++",
             "precision": 6,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
             "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
             "name": "Wrapped BTC",
             "symbol": "WBTC",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
             "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
             "name": "Wrapped Ether",
             "symbol": "WETH",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
             "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
             "name": "Basic Attention Token",
             "symbol": "BAT",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F": {
             "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
             "name": "Synthetix Network Token",
             "symbol": "SNX",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x960b236A07cf122663c4303350609A66A7B288C0": {
             "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
             "name": "Aragon Network Token",
             "symbol": "ANT",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xE41d2489571d322189246DaFA5ebDe1F4699F498": {
             "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
             "name": "0x Protocol Token",
             "symbol": "ZRX",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
             "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
             "name": "ChainLink Token",
             "symbol": "LINK",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x39AA39c021dfbaE8faC545936693aC917d5E7563": {
             "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
             "name": "Compound USD Coin",
             "symbol": "cUSDC",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643": {
             "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
             "name": "Compound Dai",
             "symbol": "cDAI",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x3212b29E33587A00FB1C83346f5dBFA69A458923": {
             "address": "0x3212b29E33587A00FB1C83346f5dBFA69A458923",
             "name": "The Tokenized Bitcoin",
             "symbol": "imBTC",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x5228a22e72ccC52d415EcFd199F99D0665E7733b": {
             "address": "0x5228a22e72ccC52d415EcFd199F99D0665E7733b",
             "name": "pTokens BTC",
             "symbol": "pBTC",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6": {
             "address": "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6",
@@ -131,105 +131,105 @@
             "name": "Synth sUSD",
             "symbol": "sUSD",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
             "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
             "name": "UMA Voting Token v1",
             "symbol": "UMA",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d": {
             "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
             "name": "Pinakion",
             "symbol": "PNK",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x27054b13b1B798B345b591a4d22e6562d47eA75a": {
             "address": "0x27054b13b1B798B345b591a4d22e6562d47eA75a",
             "name": "AirSwap Token",
             "symbol": "AST",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
             "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
             "name": "LoopringCoin V2",
             "symbol": "LRC",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x408e41876cCCDC0F92210600ef50372656052a38": {
             "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
             "name": "Republic Token",
             "symbol": "REN",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xB4EFd85c19999D84251304bDA99E90B92300Bd93": {
             "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
             "name": "Rocket Pool",
             "symbol": "RPL",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03": {
             "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
             "name": "EthLend Token",
             "symbol": "LEND",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xdd974D5C2e2928deA5F71b9825b8b646686BD200": {
             "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
             "name": "Kyber Network Crystal",
             "symbol": "KNC",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xc00e94Cb662C3520282E6f5717214004A7f26888": {
             "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
             "name": "Compound",
             "symbol": "COMP",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e": {
             "address": "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e",
             "name": "Ocean Token",
             "symbol": "OCEAN",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5": {
             "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
             "name": "mStable USD",
             "symbol": "mUSD",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e": {
             "address": "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e",
             "name": "PieDAO USD++ Pool",
             "symbol": "USD++",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2": {
             "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
             "name": "Meta",
             "symbol": "MTA",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE": {
             "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
             "name": "Wrapped NXM",
             "symbol": "wNXM",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5": {
             "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
@@ -250,84 +250,84 @@
             "name": "Serum",
             "symbol": "SRM",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x56d811088235F11C8920698a204A5010a788f4b3": {
             "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
             "name": "bZx Protocol Token",
             "symbol": "BZRX",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xD533a949740bb3306d119CC777fa900bA034cd52": {
             "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
             "name": "Curve DAO Token",
             "symbol": "CRV",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x58b6A8A3302369DAEc383334672404Ee733aB239": {
             "address": "0x58b6A8A3302369DAEc383334672404Ee733aB239",
             "name": "Livepeer Token",
             "symbol": "LPT",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D": {
             "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
             "name": "renBTC",
             "symbol": "renBTC",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
             "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
             "name": "yearn.finance",
             "symbol": "YFI",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x221657776846890989a759BA2973e427DfF5C9bB": {
             "address": "0x221657776846890989a759BA2973e427DfF5C9bB",
             "name": "Reputation",
             "symbol": "REPv2",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d": {
             "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
             "name": "Aave Interest bearing DAI",
             "symbol": "aDAI",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8": {
             "address": "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
             "name": "Aave Interest bearing USDT",
             "symbol": "aUSDT",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E": {
             "address": "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
             "name": "Aave Interest bearing USDC",
             "symbol": "aUSDC",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x625aE63000f46200499120B906716420bd059240": {
             "address": "0x625aE63000f46200499120B906716420bd059240",
             "name": "Aave Interest bearing SUSD",
             "symbol": "aSUSD",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x4DA9b813057D04BAef4e5800E36083717b4a0341": {
             "address": "0x4DA9b813057D04BAef4e5800E36083717b4a0341",
             "name": "Aave Interest bearing TUSD",
             "symbol": "aTUSD",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8": {
             "address": "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
@@ -341,63 +341,63 @@
             "name": "Aave Interest bearing BAT",
             "symbol": "aBAT",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04": {
             "address": "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04",
             "name": "Aave Interest bearing ETH",
             "symbol": "aETH",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x9D91BE44C06d373a8a226E1f3b146956083803eB": {
             "address": "0x9D91BE44C06d373a8a226E1f3b146956083803eB",
             "name": "Aave Interest bearing KNC",
             "symbol": "aKNC",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8": {
             "address": "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8",
             "name": "Aave Interest bearing LEND",
             "symbol": "aLEND",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84": {
             "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
             "name": "Aave Interest bearing LINK",
             "symbol": "aLINK",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x7deB5e830be29F91E298ba5FF1356BB7f8146998": {
             "address": "0x7deB5e830be29F91E298ba5FF1356BB7f8146998",
             "name": "Aave Interest bearing MKR",
             "symbol": "aMKR",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE": {
             "address": "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE",
             "name": "Aave Interest bearing SNX",
             "symbol": "aSNX",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3": {
             "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
             "name": "Aave Interest bearing WBTC",
             "symbol": "aWBTC",
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f": {
             "address": "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f",
             "name": "Aave Interest bearing ZRX",
             "symbol": "aZRX",
             "precision": 2,
-            "hasIcon": true
+            "hasIcon": false
         },
         "0x208D174775dc39fe18B1b374972F77ddEc6c0F73": {
             "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
