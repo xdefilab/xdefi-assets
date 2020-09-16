@@ -1,0 +1,30 @@
+[
+    {
+        "pool_address":"0x829bd824b016326a401d083b33d092293333a830",
+        "symbol":"ETH-DAI-XDEX-ABC XLP",
+        "balancer":[
+            {
+                "address":"0x829bd824b016326a401d083b33d092293333a830",
+                "weight":"30-30-40",
+                "symbol":"ETH-DAI-ABC BPT"
+            },
+            {
+                "address":"0x999999999916326a401d083b33d092293333a830",
+                "weight":"50-50",
+                "symbol":"ETH-ABC BPT"
+            }
+        ],
+        "unionswap":[
+            {
+                "address":"0x829bd824b016326a401d083b33d092293333a830",
+                "symbol":"DAI-ABC LP"
+            }
+        ],
+        "sushiswap":[
+            {
+                "address":"0x829bd824b016326a401d083b33d092293333a830",
+                "symbol":"DAI-ABC SLP"
+            }
+        ]
+    }
+]
