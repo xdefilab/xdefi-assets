@@ -16,8 +16,8 @@
         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa/logo.png"
     },
     {
-        "name": "XDefi Governance Token",
-        "address": "0x7e9e6020aAAA0eB32112c4b1F8485C089d6aD3e8",
+        "name": "XDEFI Governance Token",
+        "address": "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158",
         "symbol": "XDEX",
         "decimals": 18,
         "chainId": 42,
