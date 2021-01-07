@@ -1,0 +1,32 @@
+[
+  {
+    "name":"medium",
+    "iconClass": ["fab", "discord"],
+    "href":"https://xdefilab.medium.com/"
+  },
+  {
+    "name":"twitter",
+    "iconClass": ["fab", "twitter"],
+    "href":"https://twitter.com/xdefilab"
+  },
+  {
+    "name":"github",
+    "iconClass": ["fab", "github"],
+    "href":"https://github.com/xdefilab"
+  },
+  {
+    "name":"discord",
+    "iconClass": ["fab", "discord"],
+    "href":"https://discord.gg/SuXhDHbAN3"
+  },
+  {
+    "name":"telegramCn",
+    "iconClass": ["fab", "telegram-plane"],
+    "href":"https://t.me/xdeficn"
+  },
+  {
+    "name":"telegramEn",
+    "iconClass": ["fab", "telegram-plane"],
+    "href":"https://t.me/xdefilab"
+  }
+]
