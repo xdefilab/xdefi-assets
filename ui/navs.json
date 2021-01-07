@@ -1,0 +1,37 @@
+[
+  {
+    "name":"swap",
+    "name-zh":"兑换",
+    "href":"https://swap.kovan.xdefi.com/"
+  },
+  {
+    "name":"pool",
+    "name-zh":"资金池",
+    "href":"https://pool.kovan.xdefi.com/"
+  },
+  {
+    "name":"farm",
+    "name-zh": "矿池",
+    "href":"https://farm.kovan.xdefi.com/"
+  },
+  {
+    "name":"halfLife",
+    "name-zh": "halfLife",
+    "href":"https://halfLife.kovan.xdefi.com/"
+  },
+  {
+    "name":"stat",
+    "name-zh": "统计",
+    "href":"https://stat.kovan.xdefi.com/"
+  },
+  {
+    "name":"vote",
+    "name-zh": "投票",
+    "href":"https://vote.kovan.xdefi.com/"
+  },
+  {
+    "name":"forum",
+    "name-zh": "论坛",
+    "href":"https://community.kovan.xdefi.com/"
+  }
+]
