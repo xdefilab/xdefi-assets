@@ -23,15 +23,5 @@
     "name":"stat",
     "name-zh": "统计",
     "href":"https://stat.kovan.xdefi.com/"
-  },
-  {
-    "name":"vote",
-    "name-zh": "投票",
-    "href":"https://vote.kovan.xdefi.com/"
-  },
-  {
-    "name":"forum",
-    "name-zh": "论坛",
-    "href":"https://community.kovan.xdefi.com/"
   }
 ]
