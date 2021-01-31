@@ -20,6 +20,16 @@
       "color": "#828384",
       "hasIcon": false
     },
+    "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158": {
+      "address": "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158",
+      "name": "XDEFI Governance Token",
+      "id": "xdex",
+      "symbol": "XDEX",
+      "decimals": 18,
+      "precision": 4,
+      "color": "#828384",
+      "hasIcon": false
+  },
     "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": {
       "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
       "id": "dai",
