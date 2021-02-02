@@ -13,7 +13,7 @@
   },
   {
     "name":"farm",
-    "name-en": "Fram",
+    "name-en": "Farm",
     "name-zh": "挖矿",
     "href":"https://farm.kovan.xdefi.com/"
   },
@@ -30,9 +30,22 @@
     "href":"https://stat.kovan.xdefi.com/"
   },
   {
-    "name":"referrer",
-    "name-en": "Referrer",
-    "name-zh": "邀请奖励",
-    "href":"https://referral.kovan.xdefi.com/"
+    "name":"more",
+    "name-en": "More",
+    "name-zh": "更多",
+    "childrens":[
+      {
+        "name":"referrer",
+        "name-en": "Referrer",
+        "name-zh": "邀请奖励",
+        "href":"https://activity.kovan.xdefi.com/referrer"
+      },
+      {
+        "name":"faucet",
+        "name-en": "Faucet",
+        "name-zh": "水龙头",
+        "href":"https://activity.kovan.xdefi.com/faucet"
+      }
+    ]
   }
 ]
