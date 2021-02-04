@@ -104,6 +104,20 @@
             "symbol": "DAI",
             "precision": 2,
             "hasIcon": false
+        },
+        "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": {
+            "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+            "name": "Synth sUSD",
+            "symbol": "sUSD",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x5C0c06c540F6182de0828aF99520d6A71f796370": {
+            "address": "0x5C0c06c540F6182de0828aF99520d6A71f796370",
+            "name": "Graph Token",
+            "symbol": "GRT",
+            "precision": 2,
+            "hasIcon": false
         }
     },
     "untrusted": [

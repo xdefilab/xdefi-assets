@@ -13,7 +13,9 @@
         "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158": "uncapped",
         "0x2EbE0F9eF3A77267Ed52AB993F4A3A31bb3F935C": "uncapped",
         "0x105550516486DB9ac99DBDAd7E24F39a9629067B": "uncapped",
-        "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": "uncapped"
+        "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": "uncapped",
+        "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": "uncapped",
+        "0x5C0c06c540F6182de0828aF99520d6A71f796370": "uncapped"
     },
     "homestead": {
         "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": "uncapped",
