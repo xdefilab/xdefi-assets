@@ -14,20 +14,6 @@
             "precision": 2,
             "hasIcon": false
         },
-        "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158": {
-            "address": "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158",
-            "name": "XDEFI Governance Token",
-            "symbol": "XDEX",
-            "precision": 4,
-            "hasIcon": false
-        },
-        "0xef13C0c8abcaf5767160018d268f9697aE4f5375": {
-            "address": "0xef13C0c8abcaf5767160018d268f9697aE4f5375",
-            "name": "Maker",
-            "symbol": "MKR",
-            "precision": 4,
-            "hasIcon": false
-        },
         "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede": {
             "address": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
             "name": "USD Coin",
@@ -111,29 +97,18 @@
             "symbol": "XDEX1",
             "precision": 2,
             "hasIcon": false
+        },
+        "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": {
+            "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "precision": 2,
+            "hasIcon": false
         }
     },
     "untrusted": [
         "0xbef02f140BFb37a75Ed6510e8D85C9E9e7e0ff1e",
         "0xe7d8E7742ca6906a14F7e46770Fdfe6B7014e62D",
         "0xEC4b4fFfb58B6c85D41025b07d93167B8192062E"
-    ],
-    "network": "kovan",
-    "chainId": 42,
-    "defaultPrecision": 2,
-    "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefi_kovan",
-    "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
-    "addresses": {
-        "xPool": "0xAD056C36401395180993e3f127dE534A5aE67f01",
-        "xFactory": "0x1c1c6a28a6819dFF6F6E5F395a155f4A5498Df40",
-        "xSwapProxy": "0x40eeF21A4b74d4C6A144b2458A24dDD9311350Df",
-        "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-        "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
-    },
-    "connectors": {
-        "injected": {
-            "id": "injected",
-            "name": "MetaMask"
-        }
-    }
+    ]
 }
