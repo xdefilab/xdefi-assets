@@ -7,10 +7,10 @@
             "precision": 4,
             "hasIcon": true
         },
-        "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": {
-            "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
-            "name": "Dai Stablecoin",
-            "symbol": "DAI",
+        "0xd0A1E359811322d97991E03f863a0C30C2cF029C": {
+            "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
             "precision": 2,
             "hasIcon": false
         },
@@ -32,13 +32,6 @@
             "address": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
             "name": "USD Coin",
             "symbol": "USDC",
-            "precision": 2,
-            "hasIcon": false
-        },
-        "0x8c9e6c40d3402480ACE624730524fACC5482798c": {
-            "address": "0x8c9e6c40d3402480ACE624730524fACC5482798c",
-            "name": "Augur",
-            "symbol": "REP",
             "precision": 4,
             "hasIcon": false
         },
@@ -46,35 +39,7 @@
             "address": "0xd3A691C852CDB01E281545A27064741F0B7f6825",
             "name": "Wrapped BTC",
             "symbol": "WBTC",
-            "precision": 4,
-            "hasIcon": false
-        },
-        "0xd0A1E359811322d97991E03f863a0C30C2cF029C": {
-            "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-            "name": "Wrapped Ether",
-            "symbol": "WETH",
-            "precision": 4,
-            "hasIcon": false
-        },
-        "0x482dC9bB08111CB875109B075A40881E48aE02Cd": {
-            "address": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
-            "name": "Basic Attention Token",
-            "symbol": "BAT",
-            "precision": 2,
-            "hasIcon": false
-        },
-        "0x86436BcE20258a6DcfE48C9512d4d49A30C4d8c4": {
-            "address": "0x86436BcE20258a6DcfE48C9512d4d49A30C4d8c4",
-            "name": "Synthetix",
-            "symbol": "SNX",
-            "precision": 2,
-            "hasIcon": false
-        },
-        "0x37f03a12241E9FD3658ad6777d289c3fb8512Bc9": {
-            "address": "0x37f03a12241E9FD3658ad6777d289c3fb8512Bc9",
-            "name": "Aragon Network Token",
-            "symbol": "ANT",
-            "precision": 2,
+            "precision": 6,
             "hasIcon": false
         },
         "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3": {
@@ -84,10 +49,66 @@
             "precision": 2,
             "hasIcon": false
         },
-        "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": {
-            "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
-            "name": "Synth sUSD",
-            "symbol": "sUSD",
+        "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6": {
+            "address": "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6",
+            "name": "XDEFI Dai Stablecoin",
+            "symbol": "XDAI",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x685429b3Ce31ADa3fa1991515955Da23A27Ed184": {
+            "address": "0x685429b3Ce31ADa3fa1991515955Da23A27Ed184",
+            "name": "XDEFI BAT",
+            "symbol": "XBAT",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x8fe80F7CA77dAA68b059f8B3e29e1c5d962f01E7": {
+            "address": "0x8fe80F7CA77dAA68b059f8B3e29e1c5d962f01E7",
+            "name": "XDEFI Uniswap",
+            "symbol": "XUNI",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f": {
+            "address": "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f",
+            "name": "Compound",
+            "symbol": "XCOMP",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0xb81b21aAAf7aeDF5501BA47e7Fc57cecbdC268C6": {
+            "address": "0xb81b21aAAf7aeDF5501BA47e7Fc57cecbdC268C6",
+            "name": "XMING Token",
+            "symbol": "XMING",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x849070e3485E8D98afe9270002F304892F991b46": {
+            "address": "0x849070e3485E8D98afe9270002F304892F991b46",
+            "name": "XHALF",
+            "symbol": "XHALF",
+            "precision": 4,
+            "hasIcon": false
+        },
+        "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158": {
+            "address": "0xaDBc525ace6ed9c5195071f29036e7ecCd1DC158",
+            "name": "XDEFI Governance Token",
+            "symbol": "XDEX",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x2EbE0F9eF3A77267Ed52AB993F4A3A31bb3F935C": {
+            "address": "0x2EbE0F9eF3A77267Ed52AB993F4A3A31bb3F935C",
+            "name": "XDEFI Governance Token",
+            "symbol": "XDEX2",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x105550516486DB9ac99DBDAd7E24F39a9629067B": {
+            "address": "0x105550516486DB9ac99DBDAd7E24F39a9629067B",
+            "name": "XDEFI Governance Token",
+            "symbol": "XDEX1",
             "precision": 2,
             "hasIcon": false
         }
@@ -104,8 +125,8 @@
     "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
     "addresses": {
         "xPool": "0xAD056C36401395180993e3f127dE534A5aE67f01",
-        "xFactory":"0x1c1c6a28a6819dFF6F6E5F395a155f4A5498Df40",
-        "xSwapProxy":"0x40eeF21A4b74d4C6A144b2458A24dDD9311350Df",
+        "xFactory": "0x1c1c6a28a6819dFF6F6E5F395a155f4A5498Df40",
+        "xSwapProxy": "0x40eeF21A4b74d4C6A144b2458A24dDD9311350Df",
         "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
         "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
     },
