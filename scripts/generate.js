@@ -25,13 +25,29 @@ async function run() {
 async function generate(lists, data, metadata) {
     const basisKovanFile = await fs.readFileSync('data/basis-kovan.json');
     const basisHomesteadFile = await fs.readFileSync('data/basis-homestead.json');
+    const navsFile = await fs.readFileSync('ui/navs.json');
     const basisKovan = JSON.parse(basisKovanFile);
     const basisHomestead = JSON.parse(basisHomesteadFile);
-    await generateNetwork('kovan', lists, data, metadata, basisKovan);
-    await generateNetwork('homestead', lists, data, metadata, basisHomestead);
+    const navs = JSON.parse(navsFile);
+    const homesteadNavs = navs.map(nav => {
+        if(nav.childrens){
+            const childs = nav.childrens.map(child => ({...child, href: child.href.replace('kovan.','')}))
+            return {
+                ...nav,
+                childrens: childs
+            }
+        }else{
+            return {
+                ...nav,
+                href: nav.href.replace('kovan.','')
+            }
+        }
+    });
+    await generateNetwork('kovan', lists, data, metadata, basisKovan, navs);
+    await generateNetwork('homestead', lists, data, metadata, basisHomestead, homesteadNavs);
 }
 
-async function generateNetwork(network, lists, data, metadata, basis) {
+async function generateNetwork(network, lists, data, metadata, basis, navs) {
     const untrusted = lists.untrusted[network];
     const listedTokens = {
         ether: {
@@ -81,12 +97,14 @@ async function generateNetwork(network, lists, data, metadata, basis) {
     const dexData = {
         tokens: listedTokens,
         untrusted,
-        ...basis
+        ...basis,
+        navs
     };
     const pmData = {
         tokens: uiTokens,
         untrusted,
-        ...basis
+        ...basis,
+        navs
     };
     const dexFileName = `generated/dex/registry.${network}.json`;
     await fs.writeFileSync(dexFileName, JSON.stringify(dexData, null, 4));

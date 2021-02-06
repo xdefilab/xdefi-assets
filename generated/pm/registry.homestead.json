@@ -2717,5 +2717,56 @@
       "id": "injected",
       "name": "MetaMask"
     }
-  }
+  },
+  "navs": [
+    {
+      "name": "swap",
+      "name-en": "Swap",
+      "name-zh": "兑换",
+      "href": "https://swap.xdefi.com/"
+    },
+    {
+      "name": "pool",
+      "name-en": "Pool",
+      "name-zh": "资金池",
+      "href": "https://pool.xdefi.com/"
+    },
+    {
+      "name": "farm",
+      "name-en": "Farm",
+      "name-zh": "挖矿",
+      "href": "https://farm.xdefi.com/"
+    },
+    {
+      "name": "halfLife",
+      "name-en": "HalfLife",
+      "name-zh": "HalfLife",
+      "href": "https://halfLife.xdefi.com/"
+    },
+    {
+      "name": "stat",
+      "name-en": "Stat",
+      "name-zh": "统计",
+      "href": "https://stat.xdefi.com/"
+    },
+    {
+      "name": "more",
+      "name-en": "More",
+      "name-zh": "更多",
+      "childrens": [
+        {
+          "name": "referrer",
+          "name-en": "Referrer",
+          "name-zh": "邀请奖励",
+          "href": "https://activity.xdefi.com/referrer"
+        },
+        {
+          "name": "faucet",
+          "name-en": "Faucet",
+          "name-zh": "水龙头",
+          "href": "https://activity.xdefi.com/faucet"
+        }
+      ]
+    }
+  ]
 }
