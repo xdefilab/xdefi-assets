@@ -155,6 +155,15 @@
       "decimals": 18,
       "precision": 2,
       "hasIcon": false
+    },
+    "0x07de306FF27a2B630B1141956844eB1552B956B5": {
+      "address": "0x07de306FF27a2B630B1141956844eB1552B956B5",
+      "id": "",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "precision": 2,
+      "hasIcon": false
     }
   },
   "untrusted": [
