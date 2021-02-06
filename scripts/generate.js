@@ -67,7 +67,15 @@ async function generateNetwork(network, lists, data, metadata, basis, navs) {
             hasIcon: data.trustwalletList.includes(address),
         };
     }
-    const uiTokens = {};
+    const uiTokens = {
+        ether: {
+            address: 'ether',
+            name: 'Ether',
+            symbol: 'ETH',
+            precision: 4,
+            hasIcon: true,
+        },
+    };
     for (const address of Object.keys(lists.eligible[network])) {
         const color = getColor(network, address, data);
         uiTokens[address] = {

@@ -1,5 +1,12 @@
 {
   "tokens": {
+    "ether": {
+      "address": "ether",
+      "name": "Ether",
+      "symbol": "ETH",
+      "precision": 4,
+      "hasIcon": true
+    },
     "0xd0A1E359811322d97991E03f863a0C30C2cF029C": {
       "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
       "id": "weth",

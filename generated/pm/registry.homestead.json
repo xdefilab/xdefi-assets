@@ -1,5 +1,12 @@
 {
   "tokens": {
+    "ether": {
+      "address": "ether",
+      "name": "Ether",
+      "symbol": "ETH",
+      "precision": 4,
+      "hasIcon": true
+    },
     "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
       "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "id": "ethereum",
