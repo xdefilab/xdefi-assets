@@ -77,8 +77,8 @@
             "precision": 4,
             "hasIcon": false
         },
-        "0xAc77077f35709cbb80A8d5C036aa13b760e9bbd2": {
-            "address": "0xAc77077f35709cbb80A8d5C036aa13b760e9bbd2",
+        "0x8F8cb6B46c78842d0181CE1Dd9Ff0DD287ACBfbC": {
+            "address": "0x8F8cb6B46c78842d0181CE1Dd9Ff0DD287ACBfbC",
             "name": "XDEFI Governance Token",
             "symbol": "XDEX",
             "precision": 2,
@@ -140,8 +140,8 @@
     "infuraKey": "5368c27268fd4e8d87547e6e659605b1",
     "addresses": {
         "xPool": "0xAD056C36401395180993e3f127dE534A5aE67f01",
-        "xFactory": "0xdB3C019f548cF54EcB647167bc70FA9Dcaf80993",
-        "xSwapProxy": "0xed361ab7C339804a53C0AD2846cBd49EbefA5da5",
+        "xFactory": "0xE8b21763DC23aDfd7a0b93033C7AaA33fC258d26",
+        "xSwapProxy": "0x85072eCAa2eBC671E1e01defE484f955f20E334c",
         "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
         "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
     },
