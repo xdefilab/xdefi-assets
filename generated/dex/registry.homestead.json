@@ -537,6 +537,12 @@
                     "name-en": "Faucet",
                     "name-zh": "水龙头",
                     "href": "https://activity.xdefi.com/faucet"
+                },
+                {
+                    "name": "bug",
+                    "name-en": "Bug Report",
+                    "name-zh": "Bug 上报",
+                    "href": "https://www.wjx.cn/vj/reh9Lbi.aspx"
                 }
             ]
         }
