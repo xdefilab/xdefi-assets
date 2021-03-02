@@ -2,14 +2,16 @@
   "network": "kovan",
   "chainId": 42,
   "defaultPrecision": 2,
-  "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefi_kovan",
+  "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/basekovanv2",
   "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
   "infuraKey":"5368c27268fd4e8d87547e6e659605b1",
   "addresses": {
-      "xPool": "0xAD056C36401395180993e3f127dE534A5aE67f01",
-      "xFactory": "0xE8b21763DC23aDfd7a0b93033C7AaA33fC258d26",
-      "xSwapProxy": "0x85072eCAa2eBC671E1e01defE484f955f20E334c",
+      "xFactory": "0xef071650655E8b01D594427264a89B6f6166Bf95",
+      "xSwapProxy": "0x254D165053fD00e3C52c94DAc36ABB50152d7323",
       "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+      "xHalfLife": "0x5da00A4C0dEbBe661d47CC51233726Ad7b50f490",
+      "farmMaster": "0x67c42f45B29278ccAD4dE382e35b4eBB8d957C62",
+      "XdexStream": "0xdB99c83a296480Ab505Bf8F2ae799d06d7235447",
       "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
   },
   "connectors": {

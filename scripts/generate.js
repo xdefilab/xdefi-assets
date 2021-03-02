@@ -172,7 +172,7 @@ async function getMetadata(tokens, overwrite) {
 }
 
 async function getNetworkMetadata(network, tokens, overwrite) {
-    const infuraKey = '5368c27268fd4e8d87547e6e659605b1';
+    const infuraKey = '6349d126d18e4a62ba64c2d0c00316c8';
 
     const providers = {
         kovan: new ethers.providers.InfuraProvider('kovan', infuraKey),

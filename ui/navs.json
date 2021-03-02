@@ -9,7 +9,7 @@
     "name":"pool",
     "name-en":"Pool",
     "name-zh":"资金池",
-    "href":"https://pool.kovan.xdefi.com/"
+    "href":"https://pool.kovan.xdefi.com/#/"
   },
   {
     "name":"farm",
@@ -21,13 +21,13 @@
     "name":"halfLife",
     "name-en": "HalfLife",
     "name-zh": "HalfLife",
-    "href":"https://halfLife.kovan.xdefi.com/"
+    "href":"https://halfLife.kovan.xdefi.com/#/"
   },
   {
     "name":"stat",
     "name-en": "Stat",
     "name-zh": "统计",
-    "href":"https://stat.kovan.xdefi.com/"
+    "href":"https://stat.kovan.xdefi.com/#/"
   },
   {
     "name":"more",
