@@ -10,8 +10,9 @@
       "xSwapProxy": "0x254D165053fD00e3C52c94DAc36ABB50152d7323",
       "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
       "xHalfLife": "0x5da00A4C0dEbBe661d47CC51233726Ad7b50f490",
-      "farmMaster": "0x67c42f45B29278ccAD4dE382e35b4eBB8d957C62",
-      "XdexStream": "0xdB99c83a296480Ab505Bf8F2ae799d06d7235447",
+      "xdex": "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9",
+      "farmMaster": "0x4CC2c7a77132fc995F1dB162fe57Ef29E41B15Fb",
+      "XdexStream": "0x1584773b9d7E9e9B856d90869d70724407Eee3da",
       "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
   },
   "connectors": {

@@ -48,9 +48,15 @@
       },
       {
         "name":"bug",
-        "name-en": "Bug Report",
-        "name-zh": "Bug 上报",
-        "href":"https://www.wjx.cn/vj/reh9Lbi.aspx"
+        "name-en": "Bug Report (Chinese)",
+        "name-zh": "Bug 上报(中文)",
+        "href":"https://www.wjx.cn/vj/PiVFMbI.aspx"
+      },
+      {
+        "name":"bug",
+        "name-en": "Bug Report (English)",
+        "name-zh": "Bug 上报(英文)",
+        "href":"https://www.wjx.cn/vj/rfWRhB1.aspx"
       }
     ]
   }

@@ -11,16 +11,14 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede": {
-      "address": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
-      "id": "usd-coin",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "precision": 3,
-      "color": "#2875ca",
-      "hasIcon": false,
-      "logoUrl": ""
+    "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9": {
+      "address": "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9",
+      "id": "xdex",
+      "name": "XDEFI Governance Token",
+      "symbol": "XDEX",
+      "decimals": 18,
+      "precision": 2,
+      "hasIcon": false
     },
     "0xd3A691C852CDB01E281545A27064741F0B7f6825": {
       "address": "0xd3A691C852CDB01E281545A27064741F0B7f6825",
@@ -33,26 +31,14 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3": {
-      "address": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
-      "id": "0x",
-      "name": "0x Protocol Token",
-      "symbol": "ZRX",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#536dfe",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6": {
-      "address": "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6",
-      "id": "xdai",
-      "name": "XDEFI Dai Stablecoin",
-      "symbol": "XDAI",
-      "decimals": 18,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": ""
+    "0x849070e3485E8D98afe9270002F304892F991b46": {
+      "address": "0x849070e3485E8D98afe9270002F304892F991b46",
+      "id": "x-half-life",
+      "name": "XHALF",
+      "symbol": "XHALF",
+      "decimals": 8,
+      "precision": 4,
+      "hasIcon": false
     },
     "0x685429b3Ce31ADa3fa1991515955Da23A27Ed184": {
       "address": "0x685429b3Ce31ADa3fa1991515955Da23A27Ed184",
@@ -64,9 +50,18 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f": {
+      "address": "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f",
+      "id": "compound-governance-token",
+      "name": "Compound",
+      "symbol": "XCOMP",
+      "decimals": 18,
+      "precision": 2,
+      "hasIcon": false
+    },
     "0x8fe80F7CA77dAA68b059f8B3e29e1c5d962f01E7": {
       "address": "0x8fe80F7CA77dAA68b059f8B3e29e1c5d962f01E7",
-      "id": "x-uniswap",
+      "id": "uniswap",
       "name": "XDEFI Uniswap",
       "symbol": "XUNI",
       "decimals": 18,
@@ -74,90 +69,9 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f": {
-      "address": "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f",
-      "id": "x-compound",
-      "name": "Compound",
-      "symbol": "XCOMP",
-      "decimals": 18,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0xb81b21aAAf7aeDF5501BA47e7Fc57cecbdC268C6": {
-      "address": "0xb81b21aAAf7aeDF5501BA47e7Fc57cecbdC268C6",
-      "id": "x-ming",
-      "name": "XMING Token",
-      "symbol": "XMING",
-      "decimals": 18,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x849070e3485E8D98afe9270002F304892F991b46": {
-      "address": "0x849070e3485E8D98afe9270002F304892F991b46",
-      "id": "x-half-life",
-      "name": "XHALF",
-      "symbol": "XHALF",
-      "decimals": 8,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x8F8cb6B46c78842d0181CE1Dd9Ff0DD287ACBfbC": {
-      "address": "0x8F8cb6B46c78842d0181CE1Dd9Ff0DD287ACBfbC",
-      "id": "xdex",
-      "name": "XDEFI Governance Token",
-      "symbol": "XDEX",
-      "decimals": 18,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x2EbE0F9eF3A77267Ed52AB993F4A3A31bb3F935C": {
-      "address": "0x2EbE0F9eF3A77267Ed52AB993F4A3A31bb3F935C",
-      "id": "xdex2",
-      "name": "XDEFI Governance Token",
-      "symbol": "XDEX2",
-      "decimals": 18,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x105550516486DB9ac99DBDAd7E24F39a9629067B": {
-      "address": "0x105550516486DB9ac99DBDAd7E24F39a9629067B",
-      "id": "xdex1",
-      "name": "XDEFI Governance Token",
-      "symbol": "XDEX1",
-      "decimals": 18,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": {
-      "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
-      "id": "dai",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#fab323",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": {
-      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
-      "id": "sUSD",
-      "name": "Synth sUSD",
-      "symbol": "sUSD",
-      "decimals": 18,
-      "precision": 3,
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png"
-    },
     "0x5C0c06c540F6182de0828aF99520d6A71f796370": {
       "address": "0x5C0c06c540F6182de0828aF99520d6A71f796370",
-      "id": "GRT",
+      "id": "the-graph",
       "name": "Graph Token",
       "symbol": "GRT",
       "decimals": 18,
@@ -165,20 +79,190 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x07de306FF27a2B630B1141956844eB1552B956B5": {
-      "address": "0x07de306FF27a2B630B1141956844eB1552B956B5",
-      "id": "",
+    "0x993E60Ed0061637b9C2065D0e37444112429c4aA": {
+      "address": "0x993E60Ed0061637b9C2065D0e37444112429c4aA",
+      "id": "tether",
       "name": "Tether USD",
-      "symbol": "USDT",
+      "symbol": "XUSDT",
       "decimals": 6,
+      "precision": 4,
+      "hasIcon": false
+    },
+    "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede": {
+      "address": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
+      "id": "usd-coin",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "precision": 4,
+      "color": "#2875ca",
+      "hasIcon": false
+    },
+    "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6": {
+      "address": "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6",
+      "id": "dai",
+      "name": "XDEFI Dai Stablecoin",
+      "symbol": "XDAI",
+      "decimals": 18,
       "precision": 3,
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0x12D04f84d49FE289B2BD65404dB6504789BE34B1": {
+      "address": "0x12D04f84d49FE289B2BD65404dB6504789BE34B1",
+      "id": "sushi",
+      "name": "SushiToken",
+      "symbol": "SUSHI",
+      "decimals": 18,
+      "precision": 3,
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xf83b5Bf86b54E2471FCc45Aa8997DC73A8163a70": {
+      "address": "0xf83b5Bf86b54E2471FCc45Aa8997DC73A8163a70",
+      "id": "1inch",
+      "name": "1INCH Token",
+      "symbol": "1INCH",
+      "decimals": 18,
+      "precision": 2,
+      "hasIcon": false
+    },
+    "0xF7299b945b7A7f75EE8C42F52824459757e3ABa8": {
+      "address": "0xF7299b945b7A7f75EE8C42F52824459757e3ABa8",
+      "id": "",
+      "name": "XDEFI Governance Token",
+      "symbol": "XDEFI",
+      "decimals": 18,
+      "precision": 3,
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x3b6Ae17DF78578E3F2C5A7C89c5c908f5cFd16BE": {
+      "address": "0x3b6Ae17DF78578E3F2C5A7C89c5c908f5cFd16BE",
+      "id": "tokenlon",
+      "name": "Tokenlon",
+      "symbol": "LON",
+      "decimals": 18,
+      "precision": 2,
+      "hasIcon": false
+    },
+    "0x898958B658D06128713BaF81c6364b5b0e34eB1E": {
+      "address": "0x898958B658D06128713BaF81c6364b5b0e34eB1E",
+      "id": "aave",
+      "name": "EthLend Token",
+      "symbol": "LEND",
+      "decimals": 18,
+      "precision": 2,
+      "hasIcon": false
+    },
+    "0x1e1c57956C8773fB4C8FE89914814373b4ba0a93": {
+      "address": "0x1e1c57956C8773fB4C8FE89914814373b4ba0a93",
+      "id": "havven",
+      "name": "Synthetix Network Token",
+      "symbol": "SNX",
+      "decimals": 18,
+      "precision": 3,
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x1CC158371d308CCDE7D744e77B95E3a8F239D140": {
+      "address": "0x1CC158371d308CCDE7D744e77B95E3a8F239D140",
+      "id": "chainlink",
+      "name": "ChainLink Token",
+      "symbol": "LINK",
+      "decimals": 18,
+      "precision": 2,
+      "hasIcon": false
     }
   },
   "untrusted": [
     "0xbef02f140BFb37a75Ed6510e8D85C9E9e7e0ff1e",
     "0xe7d8E7742ca6906a14F7e46770Fdfe6B7014e62D",
     "0xEC4b4fFfb58B6c85D41025b07d93167B8192062E"
+  ],
+  "network": "kovan",
+  "chainId": 42,
+  "defaultPrecision": 2,
+  "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/basekovanv2",
+  "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
+  "infuraKey": "5368c27268fd4e8d87547e6e659605b1",
+  "addresses": {
+    "xFactory": "0xef071650655E8b01D594427264a89B6f6166Bf95",
+    "xSwapProxy": "0x254D165053fD00e3C52c94DAc36ABB50152d7323",
+    "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+    "xHalfLife": "0x5da00A4C0dEbBe661d47CC51233726Ad7b50f490",
+    "xdex": "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9",
+    "farmMaster": "0x4CC2c7a77132fc995F1dB162fe57Ef29E41B15Fb",
+    "XdexStream": "0x1584773b9d7E9e9B856d90869d70724407Eee3da",
+    "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
+  },
+  "connectors": {
+    "injected": {
+      "id": "injected",
+      "name": "MetaMask"
+    }
+  },
+  "navs": [
+    {
+      "name": "swap",
+      "name-en": "Swap",
+      "name-zh": "兑换",
+      "href": "https://swap.kovan.xdefi.com/"
+    },
+    {
+      "name": "pool",
+      "name-en": "Pool",
+      "name-zh": "资金池",
+      "href": "https://pool.kovan.xdefi.com/#/"
+    },
+    {
+      "name": "farm",
+      "name-en": "Farm",
+      "name-zh": "挖矿",
+      "href": "https://farm.kovan.xdefi.com/"
+    },
+    {
+      "name": "halfLife",
+      "name-en": "HalfLife",
+      "name-zh": "HalfLife",
+      "href": "https://halfLife.kovan.xdefi.com/#/"
+    },
+    {
+      "name": "stat",
+      "name-en": "Stat",
+      "name-zh": "统计",
+      "href": "https://stat.kovan.xdefi.com/#/"
+    },
+    {
+      "name": "more",
+      "name-en": "More",
+      "name-zh": "更多",
+      "childrens": [
+        {
+          "name": "referrer",
+          "name-en": "Referrer",
+          "name-zh": "邀请奖励",
+          "href": "https://activity.kovan.xdefi.com/referrer"
+        },
+        {
+          "name": "faucet",
+          "name-en": "Faucet",
+          "name-zh": "水龙头",
+          "href": "https://activity.kovan.xdefi.com/faucet"
+        },
+        {
+          "name":"bug",
+          "name-en": "Bug Report (Chinese)",
+          "name-zh": "Bug 上报(中文)",
+          "href":"https://www.wjx.cn/vj/PiVFMbI.aspx"
+        },
+        {
+          "name":"bug",
+          "name-en": "Bug Report (English)",
+          "name-zh": "Bug 上报(英文)",
+          "href":"https://www.wjx.cn/vj/rfWRhB1.aspx"
+        }
+      ]
+    }
   ]
 }
