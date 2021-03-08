@@ -18,8 +18,8 @@
             "hasIcon": false,
             "logoUrl": ""
         },
-        "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9": {
-            "address": "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9",
+        "0x8c3d80F8af60672EE7A728AB90E1FE21114E2711": {
+            "address": "0x8c3d80F8af60672EE7A728AB90E1FE21114E2711",
             "name": "XDEFI Governance Token",
             "symbol": "XDEX",
             "precision": 2,
@@ -152,17 +152,19 @@
     "network": "kovan",
     "chainId": 42,
     "defaultPrecision": 2,
-    "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/basekovanv2",
+    "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/basekovanv3",
+    "halilifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/halflifekovanv3",
     "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
     "infuraKey": "5368c27268fd4e8d87547e6e659605b1",
     "addresses": {
-        "xFactory": "0xef071650655E8b01D594427264a89B6f6166Bf95",
-        "xSwapProxy": "0x254D165053fD00e3C52c94DAc36ABB50152d7323",
+        "xPool": "0x29E896348c4CDC3E01D514dDa06c327A56732d7D",
+        "xFactory": "0x61727f76e27E74DC8C26F7A78ad3e49C093548ef",
+        "xSwapProxy": "0x19221B57DcbD424fe3Eb249aBb1e04F01d41632B",
         "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-        "xHalfLife": "0x5da00A4C0dEbBe661d47CC51233726Ad7b50f490",
-        "xdex": "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9",
-        "farmMaster": "0x4CC2c7a77132fc995F1dB162fe57Ef29E41B15Fb",
-        "XdexStream": "0x1584773b9d7E9e9B856d90869d70724407Eee3da",
+        "xHalfLife": "0x4fDf2464A4022b80AFE006BdE2009Aa1cDfF3adC",
+        "xdex": "0x8c3d80F8af60672EE7A728AB90E1FE21114E2711",
+        "farmMaster": "0x9b3aaE4283C11eB463A55Cbd56F552346c2fCb4E",
+        "XdexStream": "0xC3b86F2B6B2f0E86780D93c49fcD3435b2B433d7",
         "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
     },
     "connectors": {
@@ -220,16 +222,16 @@
                     "href": "https://activity.kovan.xdefi.com/faucet"
                 },
                 {
-                    "name":"bug",
+                    "name": "bug",
                     "name-en": "Bug Report (Chinese)",
                     "name-zh": "Bug 上报(中文)",
-                    "href":"https://www.wjx.cn/vj/PiVFMbI.aspx"
+                    "href": "https://www.wjx.cn/vj/PiVFMbI.aspx"
                 },
                 {
-                "name":"bug",
-                "name-en": "Bug Report (English)",
-                "name-zh": "Bug 上报(英文)",
-                "href":"https://www.wjx.cn/vj/rfWRhB1.aspx"
+                    "name": "bug",
+                    "name-en": "Bug Report (English)",
+                    "name-zh": "Bug 上报(英文)",
+                    "href": "https://www.wjx.cn/vj/rfWRhB1.aspx"
                 }
             ]
         }
