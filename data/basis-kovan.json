@@ -5,16 +5,16 @@
   "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/basekovanv3",
   "halilifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/halflifekovanv3",
   "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
-  "infuraKey":"5368c27268fd4e8d87547e6e659605b1",
+  "infuraApi":"https://api.kovan.xdefi.com/v3/api",
   "addresses": {
       "xPool": "0x29E896348c4CDC3E01D514dDa06c327A56732d7D",
       "xFactory": "0x61727f76e27E74DC8C26F7A78ad3e49C093548ef",
       "xSwapProxy": "0x19221B57DcbD424fe3Eb249aBb1e04F01d41632B",
       "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-      "xHalfLife": "0x4fDf2464A4022b80AFE006BdE2009Aa1cDfF3adC",
-      "xdex": "0x8c3d80F8af60672EE7A728AB90E1FE21114E2711",
-      "farmMaster": "0x9b3aaE4283C11eB463A55Cbd56F552346c2fCb4E",
-      "XdexStream": "0xC3b86F2B6B2f0E86780D93c49fcD3435b2B433d7",
+      "xHalfLife": "0xEEfF58ADf3Aa825235aB6C69F6c31E9Ec1268be6",
+      "xdex": "0xD88b39C71b183AC37362d5A8E620b676502F8F91",
+      "farmMaster": "0xec76B09138D7A904aE94aE6Ca079d885C5f1570F",
+      "XdexStream": "0x8207288902c13827EA5cf981825dfc4f32D8c021",
       "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
   },
   "connectors": {

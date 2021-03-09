@@ -4,14 +4,18 @@
   "defaultPrecision": 2,
   "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefidex",
   "alchemyWsUrl": "wss://eth-mainnet.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
-  "infuraKey":"5368c27268fd4e8d87547e6e659605b1",
+  "infuraApi":"https://api.xdefi.com/v3/api",
   "addresses": {
-      "xPool": "0xAD056C36401395180993e3f127dE534A5aE67f01",
-      "xFactory": "0x79148393Cd39a5e1b80dC9218e7531e19529Edb7",
-      "xSwapProxy": "0xA6Cf4AFD790c099788372c92dDc3cd975b51ECf2",
-      "weth": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-      "multicall": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441"
-  },
+    "xPool": "0x29E896348c4CDC3E01D514dDa06c327A56732d7D",
+    "xFactory": "0x61727f76e27E74DC8C26F7A78ad3e49C093548ef",
+    "xSwapProxy": "0x19221B57DcbD424fe3Eb249aBb1e04F01d41632B",
+    "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+    "xHalfLife": "0xee6FC013c271563D5B11b16582d3A485EC2f1c41",
+    "xdex": "0x8c3d80F8af60672EE7A728AB90E1FE21114E2711",
+    "farmMaster": "0x9b3aaE4283C11eB463A55Cbd56F552346c2fCb4E",
+    "XdexStream": "0xF1626D568438Df7048e3DD0B904870b5f2712Df2",
+    "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
+},
   "connectors": {
       "injected": {
           "id": "injected",

@@ -11,16 +11,11 @@ const defaultPrecision = 2;
 async function run() {
     try {
         const lists = await getLists();
-        console.debug("-----------------------------", 1111111111111);
         const data = await getData();
-        console.debug("-----------------------------", 2222222222222222)
         validateInputs(lists);
         const tokens = mergeTokenLists(lists);
-        console.debug("-----------------------------", 3333333333333)
         const metadata = await getMetadata(tokens, data.metadataOverwrite);
-        console.debug("-----------------------------", 4444444444444444444)
         await generate(lists, data, metadata);
-        console.debug("-----------------------------", 666666666)
     } catch (e) {
         console.error(e);
         process.exit(1);
@@ -34,7 +29,7 @@ async function generate(lists, data, metadata) {
     const basisKovan = JSON.parse(basisKovanFile);
     const basisHomestead = JSON.parse(basisHomesteadFile);
     const navs = JSON.parse(navsFile);
-    /* const homesteadNavs = navs.map(nav => {
+    const homesteadNavs = navs.map(nav => {
         if(nav.childrens){
             const childs = nav.childrens.map(child => ({...child, href: child.href.replace('kovan.','')}))
             return {
@@ -47,9 +42,9 @@ async function generate(lists, data, metadata) {
                 href: nav.href.replace('kovan.','')
             }
         }
-    }); */
+    });
     await generateNetwork('kovan', lists, data, metadata, basisKovan, navs);
-    //await generateNetwork('homestead', lists, data, metadata, basisHomestead, homesteadNavs);
+    await generateNetwork('homestead', lists, data, metadata, basisHomestead, homesteadNavs);
 }
 
 async function generateNetwork(network, lists, data, metadata, basis, navs) {
@@ -151,13 +146,8 @@ async function getData() {
     const metadataOverwrite = JSON.parse(metadataOverwriteFile);
     const precisionFile = await fs.readFileSync('data/precision.json');
     const precision = JSON.parse(precisionFile);
-
-    console.debug('----------------------------------------------------------', 555555555);
-    
     const trustwalletListUrl = 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/allowlist.json';
     const trustwalletListResponse = await axios.get(trustwalletListUrl);
-
-    console.debug('----------------------------------------------------------',trustwalletListResponse);
     
     const trustwalletList = trustwalletListResponse.data;
 
@@ -173,11 +163,11 @@ async function getData() {
 async function getMetadata(tokens, overwrite) {
 
     const kovan = await getNetworkMetadata('kovan', tokens.kovan, overwrite.kovan);
-    //const homestead = await getNetworkMetadata('homestead', tokens.homestead, overwrite.homestead);
+    const homestead = await getNetworkMetadata('homestead', tokens.homestead, overwrite.homestead);
 
     return {
         kovan,
-        //homestead,
+        homestead,
     };
 }
 
@@ -277,17 +267,16 @@ function mergeTokenLists(lists) {
 
     return {
         kovan,
-        //homestead,
+        homestead,
     };
 }
 
 function validateInputs(lists, network='kovan') {
     validateNetworkInputs(lists, network);
-    //validateNetworkInputs(lists, 'homestead');
+    validateNetworkInputs(lists, 'homestead');
 }
 
 function validateNetworkInputs(lists, network) {
-    console.debug("trust --------------------------------",111111111111111)
     // Check that addresses are checksummed
     validateAddressesChecksummed(Object.keys(lists.eligible[network]));
     validateAddressesChecksummed(lists.listed[network]);
