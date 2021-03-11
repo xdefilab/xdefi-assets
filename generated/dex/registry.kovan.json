@@ -4,208 +4,168 @@
             "address": "ether",
             "name": "Ether",
             "symbol": "ETH",
+            "decimals": 18,
             "precision": 4,
-            "hasIcon": true
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png"
         },
         "0xd0A1E359811322d97991E03f863a0C30C2cF029C": {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
             "name": "Wrapped Ether",
             "symbol": "WETH",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 4,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede": {
             "address": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
             "name": "USD Coin",
             "symbol": "USDC",
-            "precision": 4,
-            "hasIcon": false
+            "decimals": 6,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0xd3A691C852CDB01E281545A27064741F0B7f6825": {
             "address": "0xd3A691C852CDB01E281545A27064741F0B7f6825",
             "name": "Wrapped BTC",
             "symbol": "WBTC",
-            "precision": 6,
-            "hasIcon": false
+            "decimals": 8,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3": {
             "address": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
             "name": "0x Protocol Token",
             "symbol": "ZRX",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6": {
             "address": "0xDE99C79533EEB1897d1d12dF3E5437D498ba82a6",
             "name": "XDEFI Dai Stablecoin",
             "symbol": "XDAI",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x685429b3Ce31ADa3fa1991515955Da23A27Ed184": {
             "address": "0x685429b3Ce31ADa3fa1991515955Da23A27Ed184",
             "name": "XDEFI BAT",
             "symbol": "XBAT",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x8fe80F7CA77dAA68b059f8B3e29e1c5d962f01E7": {
             "address": "0x8fe80F7CA77dAA68b059f8B3e29e1c5d962f01E7",
             "name": "XDEFI Uniswap",
             "symbol": "XUNI",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f": {
             "address": "0x42197a5564c6C9bbF6205Eaf429a20dDe00Fd22f",
             "name": "Compound",
             "symbol": "XCOMP",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0xb81b21aAAf7aeDF5501BA47e7Fc57cecbdC268C6": {
             "address": "0xb81b21aAAf7aeDF5501BA47e7Fc57cecbdC268C6",
             "name": "XMING Token",
             "symbol": "XMING",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x849070e3485E8D98afe9270002F304892F991b46": {
             "address": "0x849070e3485E8D98afe9270002F304892F991b46",
             "name": "XHALF",
             "symbol": "XHALF",
-            "precision": 4,
-            "hasIcon": false
+            "decimals": 8,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x8F8cb6B46c78842d0181CE1Dd9Ff0DD287ACBfbC": {
             "address": "0x8F8cb6B46c78842d0181CE1Dd9Ff0DD287ACBfbC",
             "name": "XDEFI Governance Token",
             "symbol": "XDEX",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x2EbE0F9eF3A77267Ed52AB993F4A3A31bb3F935C": {
             "address": "0x2EbE0F9eF3A77267Ed52AB993F4A3A31bb3F935C",
             "name": "XDEFI Governance Token",
             "symbol": "XDEX2",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x105550516486DB9ac99DBDAd7E24F39a9629067B": {
             "address": "0x105550516486DB9ac99DBDAd7E24F39a9629067B",
             "name": "XDEFI Governance Token",
             "symbol": "XDEX1",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": {
             "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
             "name": "Dai Stablecoin",
             "symbol": "DAI",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": {
             "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
             "name": "Synth sUSD",
             "symbol": "sUSD",
-            "precision": 2,
-            "hasIcon": true
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png"
         },
         "0x5C0c06c540F6182de0828aF99520d6A71f796370": {
             "address": "0x5C0c06c540F6182de0828aF99520d6A71f796370",
             "name": "Graph Token",
             "symbol": "GRT",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         },
         "0x07de306FF27a2B630B1141956844eB1552B956B5": {
             "address": "0x07de306FF27a2B630B1141956844eB1552B956B5",
             "name": "Tether USD",
             "symbol": "USDT",
-            "precision": 2,
-            "hasIcon": false
+            "decimals": 6,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         }
     },
     "untrusted": [
         "0xbef02f140BFb37a75Ed6510e8D85C9E9e7e0ff1e",
         "0xe7d8E7742ca6906a14F7e46770Fdfe6B7014e62D",
         "0xEC4b4fFfb58B6c85D41025b07d93167B8192062E"
-    ],
-    "network": "kovan",
-    "chainId": 42,
-    "defaultPrecision": 2,
-    "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefi_kovan",
-    "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
-    "infuraKey": "5368c27268fd4e8d87547e6e659605b1",
-    "addresses": {
-        "xPool": "0xAD056C36401395180993e3f127dE534A5aE67f01",
-        "xFactory": "0xE8b21763DC23aDfd7a0b93033C7AaA33fC258d26",
-        "xSwapProxy": "0x85072eCAa2eBC671E1e01defE484f955f20E334c",
-        "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-        "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
-    },
-    "connectors": {
-        "injected": {
-            "id": "injected",
-            "name": "MetaMask"
-        }
-    },
-    "navs": [
-        {
-            "name": "swap",
-            "name-en": "Swap",
-            "name-zh": "兑换",
-            "href": "https://swap.kovan.xdefi.com/"
-        },
-        {
-            "name": "pool",
-            "name-en": "Pool",
-            "name-zh": "资金池",
-            "href": "https://pool.kovan.xdefi.com/"
-        },
-        {
-            "name": "farm",
-            "name-en": "Farm",
-            "name-zh": "挖矿",
-            "href": "https://farm.kovan.xdefi.com/"
-        },
-        {
-            "name": "halfLife",
-            "name-en": "HalfLife",
-            "name-zh": "HalfLife",
-            "href": "https://halfLife.kovan.xdefi.com/"
-        },
-        {
-            "name": "stat",
-            "name-en": "Stat",
-            "name-zh": "统计",
-            "href": "https://stat.kovan.xdefi.com/"
-        },
-        {
-            "name": "more",
-            "name-en": "More",
-            "name-zh": "更多",
-            "childrens": [
-                {
-                    "name": "referrer",
-                    "name-en": "Referrer",
-                    "name-zh": "邀请奖励",
-                    "href": "https://activity.kovan.xdefi.com/referrer"
-                },
-                {
-                    "name": "faucet",
-                    "name-en": "Faucet",
-                    "name-zh": "水龙头",
-                    "href": "https://activity.kovan.xdefi.com/faucet"
-                },
-                {
-                    "name": "bug",
-                    "name-en": "Bug Report",
-                    "name-zh": "Bug 上报",
-                    "href": "https://www.wjx.cn/vj/reh9Lbi.aspx"
-                }
-            ]
-        }
     ]
 }
