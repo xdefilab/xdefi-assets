@@ -198,14 +198,15 @@
   "infuraApi": "https://api.kovan.xdefi.com/v3/api",
   "addresses": {
     "xPool": "0x29E896348c4CDC3E01D514dDa06c327A56732d7D",
-    "xFactory": "0x61727f76e27E74DC8C26F7A78ad3e49C093548ef",
+    "xFactory": "0x33b6Bc31b6C1bbf52260A02AA9475041cC839eCf",
     "xSwapProxy": "0x19221B57DcbD424fe3Eb249aBb1e04F01d41632B",
     "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
     "xHalfLife": "0xEEfF58ADf3Aa825235aB6C69F6c31E9Ec1268be6",
     "xdex": "0xD88b39C71b183AC37362d5A8E620b676502F8F91",
     "farmMaster": "0xec76B09138D7A904aE94aE6Ca079d885C5f1570F",
     "XdexStream": "0x8207288902c13827EA5cf981825dfc4f32D8c021",
-    "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
+    "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A",
+    "dai":"0xde99c79533eeb1897d1d12df3e5437d498ba82a6"
   },
   "connectors": {
     "injected": {
