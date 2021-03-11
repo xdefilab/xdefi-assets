@@ -41,11 +41,11 @@ async function generate(name, tokens) {
     const date = new Date(dayTimestamp);
     const timestamp = date.toISOString();
     const list = {
-        name: 'Balancer',
+        name: 'XDeFi',
         timestamp,
-        logoURI: 'https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png',
+        logoURI: '',
         keywords: [
-            'balancer',
+            'xdefi',
             name,
         ],
         version: {

@@ -1,9 +1,9 @@
 {
-    "name": "Balancer",
+    "name": "XDeFi",
     "timestamp": "2021-03-11T00:00:00.000Z",
-    "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    "logoURI": "",
     "keywords": [
-        "balancer",
+        "xdefi",
         "vetted"
     ],
     "version": {
