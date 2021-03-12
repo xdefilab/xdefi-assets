@@ -1,6 +1,6 @@
 {
     "name": "XDeFi",
-    "timestamp": "2021-03-11T00:00:00.000Z",
+    "timestamp": "2021-03-12T00:00:00.000Z",
     "logoURI": "",
     "keywords": [
         "xdefi",
@@ -3479,7 +3479,7 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
         },
         {
-            "address": "0xD88b39C71b183AC37362d5A8E620b676502F8F91",
+            "address": "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9",
             "chainId": 42,
             "name": "XDEFI Governance Token",
             "symbol": "XDEX",

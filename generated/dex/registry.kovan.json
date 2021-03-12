@@ -18,8 +18,8 @@
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
         },
-        "0xD88b39C71b183AC37362d5A8E620b676502F8F91": {
-            "address": "0xD88b39C71b183AC37362d5A8E620b676502F8F91",
+        "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9": {
+            "address": "0xa98ed4CBA3e52DCd2400A6a9A999111612F5a6f9",
             "name": "XDEFI Governance Token",
             "symbol": "XDEX",
             "decimals": 18,
@@ -194,7 +194,7 @@
         "farmMaster": "0x4CC2c7a77132fc995F1dB162fe57Ef29E41B15Fb",
         "XdexStream": "0x1584773b9d7E9e9B856d90869d70724407Eee3da",
         "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A",
-        "dai":"0xde99c79533eeb1897d1d12df3e5437d498ba82a6"
+        "dai": "0xde99c79533eeb1897d1d12df3e5437d498ba82a6"
     },
     "connectors": {
         "injected": {
