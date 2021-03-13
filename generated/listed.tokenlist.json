@@ -1,6 +1,6 @@
 {
     "name": "XDeFi",
-    "timestamp": "2021-03-11T00:00:00.000Z",
+    "timestamp": "2021-03-13T00:00:00.000Z",
     "logoURI": "",
     "keywords": [
         "xdefi",
@@ -19,6 +19,21 @@
             "symbol": "WETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+        },
+        {
+            "address": "0x000000000000d0151E748d25b766e77efe2A6c83",
+            "chainId": 1,
+            "name": "XDEFI Governance Token",
+            "symbol": "XDEX",
+            "decimals": 18
+        },
+        {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "chainId": 1,
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
         },
         {
             "address": "0xba100000625a3754423978a60c9317c58a424e3D",

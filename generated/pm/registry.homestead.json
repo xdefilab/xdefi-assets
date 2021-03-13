@@ -11,6 +11,17 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
     },
+    "0x000000000000d0151E748d25b766e77efe2A6c83": {
+      "address": "0x000000000000d0151E748d25b766e77efe2A6c83",
+      "id": "",
+      "name": "XDEFI Governance Token",
+      "symbol": "XDEX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "id": "usd-coin",
@@ -21,6 +32,17 @@
       "color": "#9d9f7f",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+    },
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "id": "",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
     },
     "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
       "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
@@ -4639,8 +4661,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#68aca9",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074/logo.png"
     },
     "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5": {
       "address": "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5",
@@ -4987,7 +5009,6 @@
     "0xc9859fccC876e6b4B3C749C5D29EA04F48aCb74F",
     "0xCc34366E3842cA1BD36c1f324d15257960fCC801",
     "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
-    "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "0xDB7Eab9bA6be88B869F738f6DEeBa96d49Fe13fd",
     "0xDc5864eDe28BD4405aa04d93E05A0531797D9D59",
     "0xe3818504c1B32bF1557b16C238B2E01Fd3149C17",
@@ -5008,18 +5029,20 @@
   "chainId": 1,
   "defaultPrecision": 2,
   "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefidex",
+  "halilifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xhalflife",
   "alchemyWsUrl": "wss://eth-mainnet.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
   "infuraApi": "https://api.xdefi.com/v3/api",
   "addresses": {
     "xPool": "0x29E896348c4CDC3E01D514dDa06c327A56732d7D",
-    "xFactory": "0x61727f76e27E74DC8C26F7A78ad3e49C093548ef",
-    "xSwapProxy": "0x19221B57DcbD424fe3Eb249aBb1e04F01d41632B",
-    "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-    "xHalfLife": "0xee6FC013c271563D5B11b16582d3A485EC2f1c41",
-    "xdex": "0x8c3d80F8af60672EE7A728AB90E1FE21114E2711",
+    "xFactory": "0x23C088198347edb873946FCff77E42401a1A93d2",
+    "xSwapProxy": "0x82484b7e77E4b80De6d78Bdf9014E44CC715f66A",
+    "weth": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "xHalfLife": "0xeDc0a72f63aeFE6ED7517E63618E0Bc4Ac808Be8",
+    "xdex": "0x000000000000d0151E748d25b766e77efe2A6c83",
     "farmMaster": "0x9b3aaE4283C11eB463A55Cbd56F552346c2fCb4E",
     "XdexStream": "0xF1626D568438Df7048e3DD0B904870b5f2712Df2",
-    "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
+    "multicall": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
+    "dai": "0xde99c79533eeb1897d1d12df3e5437d498ba82a6"
   },
   "connectors": {
     "injected": {
