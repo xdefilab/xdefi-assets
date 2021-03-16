@@ -23,6 +23,7 @@ async function run() {
 }
 
 async function generate(lists, data, metadata) {
+    const excludeNavs = ['bug', 'faucet'];
     const basisKovanFile = await fs.readFileSync('data/basis-kovan.json');
     const basisHomesteadFile = await fs.readFileSync('data/basis-homestead.json');
     const navsFile = await fs.readFileSync('ui/navs.json');
@@ -31,7 +32,7 @@ async function generate(lists, data, metadata) {
     const navs = JSON.parse(navsFile);
     const homesteadNavs = navs.map(nav => {
         if(nav.childrens){
-            const childs = nav.childrens.map(child => ({...child, href: child.href.replace('kovan.','')}))
+            const childs = nav.childrens.filter(nav => !excludeNavs.includes(nav.name)).map(child => ({...child, href: child.href.replace('kovan.','')}))
             return {
                 ...nav,
                 childrens: childs

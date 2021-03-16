@@ -850,24 +850,6 @@
                     "name-en": "Referrer",
                     "name-zh": "邀请奖励",
                     "href": "https://activity.xdefi.com/referrer"
-                },
-                {
-                    "name": "faucet",
-                    "name-en": "Faucet",
-                    "name-zh": "水龙头",
-                    "href": "https://activity.xdefi.com/faucet"
-                },
-                {
-                    "name": "bug",
-                    "name-en": "Bug Report (Chinese)",
-                    "name-zh": "Bug 上报(中文)",
-                    "href": "https://www.wjx.cn/vj/PiVFMbI.aspx"
-                },
-                {
-                    "name": "bug",
-                    "name-en": "Bug Report (English)",
-                    "name-zh": "Bug 上报(英文)",
-                    "href": "https://www.wjx.cn/vj/rfWRhB1.aspx"
                 }
             ]
         }
