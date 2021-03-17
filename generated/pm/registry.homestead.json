@@ -286,303 +286,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd": {
-      "address": "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
-      "id": "piedao-btc",
-      "name": "PieDAO BTC++",
-      "symbol": "BTC++",
-      "decimals": 18,
-      "precision": 6,
-      "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd/logo.png"
-    },
-    "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e": {
-      "address": "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e",
-      "id": "piedao-usd",
-      "name": "PieDAO USD++ Pool",
-      "symbol": "USD++",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#387080",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e/logo.png"
-    },
-    "0x39AA39c021dfbaE8faC545936693aC917d5E7563": {
-      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-      "id": "compound-usd-coin",
-      "name": "Compound USD Coin",
-      "symbol": "cUSDC",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#6eaa78",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x39AA39c021dfbaE8faC545936693aC917d5E7563/logo.png"
-    },
-    "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643": {
-      "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
-      "id": "cdai",
-      "name": "Compound Dai",
-      "symbol": "cDAI",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#93a167",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643/logo.png"
-    },
-    "0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5": {
-      "address": "0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5",
-      "id": "compound-ether",
-      "name": "Compound Ether",
-      "symbol": "cETH",
-      "decimals": 8,
-      "precision": 3,
-      "color": "#c28d75",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5/logo.png"
-    },
-    "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9": {
-      "address": "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9",
-      "id": "compound-usdt",
-      "name": "Compound USDT",
-      "symbol": "cUSDT",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x158079Ee67Fce2f58472A96584A73C7Ab9AC95c1": {
-      "address": "0x158079Ee67Fce2f58472A96584A73C7Ab9AC95c1",
-      "id": "compound-augur",
-      "name": "Compound Augur",
-      "symbol": "cREP",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#220730",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x158079Ee67Fce2f58472A96584A73C7Ab9AC95c1/logo.png"
-    },
-    "0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407": {
-      "address": "0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407",
-      "id": "compound-0x",
-      "name": "Compound 0x",
-      "symbol": "cZRX",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#9a4f50",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407/logo.png"
-    },
-    "0x6C8c6b02E7b2BE14d4fA6022Dfd6d75921D90E4E": {
-      "address": "0x6C8c6b02E7b2BE14d4fA6022Dfd6d75921D90E4E",
-      "id": "compound-basic-attention-token",
-      "name": "Compound Basic Attention Token",
-      "symbol": "cBAT",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#666092",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6C8c6b02E7b2BE14d4fA6022Dfd6d75921D90E4E/logo.png"
-    },
-    "0xC11b1268C1A384e55C48c2391d8d480264A3A7F4": {
-      "address": "0xC11b1268C1A384e55C48c2391d8d480264A3A7F4",
-      "id": "compound-wrapped-btc",
-      "name": "Compound Wrapped BTC",
-      "symbol": "cWBTC",
-      "decimals": 8,
-      "precision": 5,
-      "color": "#be955c",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d": {
-      "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
-      "id": "aave-dai",
-      "name": "Aave Interest bearing DAI",
-      "symbol": "aDAI",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#c38890",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d/logo.png"
-    },
-    "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8": {
-      "address": "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
-      "id": "aave-usdt",
-      "name": "Aave Interest bearing USDT",
-      "symbol": "aUSDT",
-      "decimals": 6,
-      "precision": 2,
-      "color": "#8b5580",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x71fc860F7D3A592A4a98740e39dB31d25db65ae8/logo.png"
-    },
-    "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E": {
-      "address": "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
-      "id": "aave-usdc",
-      "name": "Aave Interest bearing USDC",
-      "symbol": "aUSDC",
-      "decimals": 6,
-      "precision": 2,
-      "color": "#c5ccb8",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9bA00D6856a4eDF4665BcA2C2309936572473B7E/logo.png"
-    },
-    "0x625aE63000f46200499120B906716420bd059240": {
-      "address": "0x625aE63000f46200499120B906716420bd059240",
-      "id": "aave-susd",
-      "name": "Aave Interest bearing SUSD",
-      "symbol": "aSUSD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#9a9a97",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x625aE63000f46200499120B906716420bd059240/logo.png"
-    },
-    "0x4DA9b813057D04BAef4e5800E36083717b4a0341": {
-      "address": "0x4DA9b813057D04BAef4e5800E36083717b4a0341",
-      "id": "aave-tusd",
-      "name": "Aave Interest bearing TUSD",
-      "symbol": "aTUSD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#6f6776",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4DA9b813057D04BAef4e5800E36083717b4a0341/logo.png"
-    },
-    "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8": {
-      "address": "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
-      "id": "aave-busd",
-      "name": "Aave Interest bearing Binance USD",
-      "symbol": "aBUSD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#93a167",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8/logo.png"
-    },
-    "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00": {
-      "address": "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00",
-      "id": "aave-bat",
-      "name": "Aave Interest bearing BAT",
-      "symbol": "aBAT",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#416aa3",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00/logo.png"
-    },
-    "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04": {
-      "address": "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04",
-      "id": "aave-eth",
-      "name": "Aave Interest bearing ETH",
-      "symbol": "aETH",
-      "decimals": 18,
-      "precision": 5,
-      "color": "#8d6268",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04/logo.png"
-    },
-    "0x9D91BE44C06d373a8a226E1f3b146956083803eB": {
-      "address": "0x9D91BE44C06d373a8a226E1f3b146956083803eB",
-      "id": "aave-knc",
-      "name": "Aave Interest bearing KNC",
-      "symbol": "aKNC",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#be955c",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9D91BE44C06d373a8a226E1f3b146956083803eB/logo.png"
-    },
-    "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8": {
-      "address": "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8",
-      "id": "aave-lend",
-      "name": "Aave Interest bearing LEND",
-      "symbol": "aLEND",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#68aca9",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D2D3688Df45Ce7C552E19c27e007673da9204B8/logo.png"
-    },
-    "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84": {
-      "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
-      "id": "aave-link",
-      "name": "Aave Interest bearing LINK",
-      "symbol": "aLINK",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#387080",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84/logo.png"
-    },
-    "0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f": {
-      "address": "0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f",
-      "id": "aave-mana",
-      "name": "Aave Interest bearing MANA",
-      "symbol": "aMANA",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#6e6962",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f/logo.png"
-    },
-    "0x7deB5e830be29F91E298ba5FF1356BB7f8146998": {
-      "address": "0x7deB5e830be29F91E298ba5FF1356BB7f8146998",
-      "id": "aave-mkr",
-      "name": "Aave Interest bearing MKR",
-      "symbol": "aMKR",
-      "decimals": 18,
-      "precision": 5,
-      "color": "#93a167",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7deB5e830be29F91E298ba5FF1356BB7f8146998/logo.png"
-    },
-    "0x71010A9D003445aC60C4e6A7017c1E89A477B438": {
-      "address": "0x71010A9D003445aC60C4e6A7017c1E89A477B438",
-      "id": "aave-rep",
-      "name": "Aave Interest bearing REP",
-      "symbol": "aREP",
-      "decimals": 18,
-      "precision": 4,
-      "color": "#6eaa78",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x71010A9D003445aC60C4e6A7017c1E89A477B438/logo.png"
-    },
-    "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE": {
-      "address": "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE",
-      "id": "aave-snx",
-      "name": "Aave Interest bearing SNX",
-      "symbol": "aSNX",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE/logo.png"
-    },
-    "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3": {
-      "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
-      "id": "aave-wbtc",
-      "name": "Aave Interest bearing WBTC",
-      "symbol": "aWBTC",
-      "decimals": 8,
-      "precision": 6,
-      "color": "#9d9f7f",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xFC4B8ED459e00e5400be803A9BB3954234FD50e3/logo.png"
-    },
-    "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f": {
-      "address": "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f",
-      "id": "aave-zrx",
-      "name": "Aave Interest bearing ZRX",
-      "symbol": "aZRX",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#7e9e99",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f/logo.png"
-    },
     "0xE41d2489571d322189246DaFA5ebDe1F4699F498": {
       "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "id": "0x",
@@ -593,17 +296,6 @@
       "color": "#9a4f50",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png"
-    },
-    "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D": {
-      "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
-      "id": "renbtc",
-      "name": "renBTC",
-      "symbol": "renBTC",
-      "decimals": 8,
-      "precision": 6,
-      "color": "#9a9a97",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png"
     },
     "0x3212b29E33587A00FB1C83346f5dBFA69A458923": {
       "address": "0x3212b29E33587A00FB1C83346f5dBFA69A458923",
@@ -1077,17 +769,6 @@
       "color": "#93a167",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB705268213D593B8FD88d3FDEFF93AFF5CbDcfAE/logo.png"
-    },
-    "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5": {
-      "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
-      "id": "musd",
-      "name": "mStable USD",
-      "symbol": "mUSD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#6e6962",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe2f2a5C287993345a840Db3B0845fbC70f5935a5/logo.png"
     },
     "0xc12d099be31567add4e4e4d0D45691C3F58f5663": {
       "address": "0xc12d099be31567add4e4e4d0D45691C3F58f5663",
@@ -2266,28 +1947,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfc05987bd2be489ACCF0f509E44B0145d68240f7/logo.png"
     },
-    "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8": {
-      "address": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
-      "id": "curve-fi-ydai-yusdc-yusdt-ytusd",
-      "name": "Curve.fi Y Pool Token",
-      "symbol": "yCRV",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#416aa3",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5": {
-      "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
-      "id": "yusd-synthetic-token-expiring-1-september-2020",
-      "name": "yUSD Synthetic Token Expiring 1 September 2020",
-      "symbol": "yUSD-SEP20",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#c5ccb8",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
     "0x27702a26126e0B3702af63Ee09aC4d1A084EF628": {
       "address": "0x27702a26126e0B3702af63Ee09aC4d1A084EF628",
       "id": "aleph",
@@ -2309,17 +1968,6 @@
       "color": "#220730",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBA50933C268F567BDC86E1aC131BE072C6B0b71a/logo.png"
-    },
-    "0x34612903Db071e888a4dADcaA416d3EE263a87b9": {
-      "address": "0x34612903Db071e888a4dADcaA416d3EE263a87b9",
-      "id": "ethart",
-      "name": "ethart",
-      "symbol": "arte",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c5ccb8",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x34612903Db071e888a4dADcaA416d3EE263a87b9/logo.png"
     },
     "0x954b890704693af242613edEf1B603825afcD708": {
       "address": "0x954b890704693af242613edEf1B603825afcD708",
@@ -2353,28 +2001,6 @@
       "color": "#6eaa78",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e/logo.png"
-    },
-    "0x12f649A9E821F90BB143089a6e56846945892ffB": {
-      "address": "0x12f649A9E821F90BB143089a6e56846945892ffB",
-      "id": "howdoo",
-      "name": "uDOO",
-      "symbol": "uDOO",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#c38890",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x12f649A9E821F90BB143089a6e56846945892ffB/logo.png"
-    },
-    "0xaD6A626aE2B43DCb1B39430Ce496d2FA0365BA9C": {
-      "address": "0xaD6A626aE2B43DCb1B39430Ce496d2FA0365BA9C",
-      "id": "piedao-defi-small-cap",
-      "name": "PieDAO DEFI Small Cap",
-      "symbol": "DEFI+S",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#68aca9",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0x221657776846890989a759BA2973e427DfF5C9bB": {
       "address": "0x221657776846890989a759BA2973e427DfF5C9bB",
@@ -2750,28 +2376,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x45f24BaEef268BB6d63AEe5129015d69702BCDfa/logo.png"
     },
-    "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4": {
-      "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
-      "id": "yusd-synthetic-token-expiring-1-october-2020",
-      "name": "yUSD Synthetic Token Expiring 1 October 2020",
-      "symbol": "yUSD-OCT20",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#c5ccb8",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c": {
-      "address": "0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c",
-      "id": "yvault-lp-ycurve",
-      "name": "yearn Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
-      "symbol": "yyDAI+yUSDC+yUSDT+yTUSD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#220730",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c/logo.png"
-    },
     "0x94d863173EE77439E4292284fF13fAD54b3BA182": {
       "address": "0x94d863173EE77439E4292284fF13fAD54b3BA182",
       "id": "akropolis-delphi",
@@ -2947,17 +2551,6 @@
       "color": "#c28d75",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00D1793D7C3aAE506257Ba985b34C76AaF642557/logo.png"
-    },
-    "0x208D174775dc39fe18B1b374972F77ddEc6c0F73": {
-      "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
-      "id": "uusdrbtc-synthetic-token-expiring-1-october-2020",
-      "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
-      "symbol": "uUSDrBTC-OCT",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#6f6776",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0xCee1d3c3A02267e37E6B373060F79d5d7b9e1669": {
       "address": "0xCee1d3c3A02267e37E6B373060F79d5d7b9e1669",
@@ -3289,28 +2882,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x467Bccd9d29f223BcE8043b84E8C8B282827790F/logo.png"
     },
-    "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce": {
-      "address": "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce",
-      "id": "uusdrbtc-synthetic-token-expiring-31-december-2020",
-      "name": "uUSDrBTC Synthetic Token Expiring 31 December 2020",
-      "symbol": "uUSDrBTC-DEC",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#220730",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9": {
-      "address": "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9",
-      "id": "yusd-synthetic-token-expiring-31-december-2020",
-      "name": "uUSDwETH Synthetic Token Expiring 31 December 2020",
-      "symbol": "uUSDwETH-DEC",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#5d6872",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
     "0x9355372396e3F6daF13359B7b607a3374cc638e0": {
       "address": "0x9355372396e3F6daF13359B7b607a3374cc638e0",
       "id": "whale",
@@ -3377,50 +2948,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfe5F141Bf94fE84bC28deD0AB966c16B17490657/logo.png"
     },
-    "0x26cF82e4aE43D31eA51e72B663d26e26a75AF729": {
-      "address": "0x26cF82e4aE43D31eA51e72B663d26e26a75AF729",
-      "id": "moonbase",
-      "name": "Moonbase",
-      "symbol": "mbBASED",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#7e9e99",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x44Ea84a85616F8e9cD719Fc843DE31D852ad7240": {
-      "address": "0x44Ea84a85616F8e9cD719Fc843DE31D852ad7240",
-      "id": "no-trump-augur-prediction-token",
-      "name": "NO Donald Trump",
-      "symbol": "nTrump",
-      "decimals": 15,
-      "precision": 2,
-      "color": "#be955c",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf": {
-      "address": "0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf",
-      "id": "renbch",
-      "name": "renBCH",
-      "symbol": "renBCH",
-      "decimals": 8,
-      "precision": 5,
-      "color": "#9a4f50",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf/logo.png"
-    },
-    "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2": {
-      "address": "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2",
-      "id": "renzec",
-      "name": "renZEC",
-      "symbol": "renZEC",
-      "decimals": 8,
-      "precision": 4,
-      "color": "#7ca1c0",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2/logo.png"
-    },
     "0x7e8539D1E5cB91d63E46B8e188403b3f262a949B": {
       "address": "0x7e8539D1E5cB91d63E46B8e188403b3f262a949B",
       "id": "somidax",
@@ -3440,17 +2967,6 @@
       "decimals": 18,
       "precision": 3,
       "color": "#628b8d",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x3af375d9f77Ddd4F16F86A5D51a9386b7B4493Fa": {
-      "address": "0x3af375d9f77Ddd4F16F86A5D51a9386b7B4493Fa",
-      "id": "yes-trump-augur-prediction-token",
-      "name": "YES Donald Trump",
-      "symbol": "yTrump",
-      "decimals": 15,
-      "precision": 2,
-      "color": "#be955c",
       "hasIcon": false,
       "logoUrl": ""
     },
@@ -3475,17 +2991,6 @@
       "color": "#c5ccb8",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xADE00C28244d5CE17D72E40330B1c318cD12B7c3/logo.png"
-    },
-    "0x78F225869c08d478c34e5f645d07A87d3fe8eb78": {
-      "address": "0x78F225869c08d478c34e5f645d07A87d3fe8eb78",
-      "id": "piedao-defi-large-cap",
-      "name": "PieDAO DEFI Large Cap",
-      "symbol": "DEFI+L",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#5d2e9a",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9": {
       "address": "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9",
@@ -3519,28 +3024,6 @@
       "color": "#666092",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2e1E15C44Ffe4Df6a0cb7371CD00d5028e571d14/logo.png"
-    },
-    "0x2367012aB9c3da91290F71590D5ce217721eEfE4": {
-      "address": "0x2367012aB9c3da91290F71590D5ce217721eEfE4",
-      "id": "xsnx",
-      "name": "xSNX",
-      "symbol": "xSNXa",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#9d9f7f",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x35A18000230DA775CAc24873d00Ff85BccdeD550": {
-      "address": "0x35A18000230DA775CAc24873d00Ff85BccdeD550",
-      "id": "compound-uniswap",
-      "name": "Compound Uniswap",
-      "symbol": "cUNI",
-      "decimals": 8,
-      "precision": 3,
-      "color": "#68aca9",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A": {
       "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
@@ -3927,28 +3410,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x286BDA1413a2Df81731D4930ce2F862a35A609fE/logo.png"
     },
-    "0x837010619aeb2AE24141605aFC8f66577f6fb2e7": {
-      "address": "0x837010619aeb2AE24141605aFC8f66577f6fb2e7",
-      "id": "zhegic",
-      "name": "zHEGIC",
-      "symbol": "zHEGIC",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#416aa3",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0xA8e7AD77C60eE6f30BaC54E2E7c0617Bd7B5A03E": {
-      "address": "0xA8e7AD77C60eE6f30BaC54E2E7c0617Bd7B5A03E",
-      "id": "zlot",
-      "name": "zLOT",
-      "symbol": "zLOT",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#7e9e99",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
     "0xBbff34E47E559ef680067a6B1c980639EEb64D24": {
       "address": "0xBbff34E47E559ef680067a6B1c980639EEb64D24",
       "id": "leverj-gluon",
@@ -3992,28 +3453,6 @@
       "color": "#6eaa78",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4A64515E5E1d1073e83f30cB97BEd20400b66E10/logo.png"
-    },
-    "0x80DC468671316E50D4E9023D3db38D3105c1C146": {
-      "address": "0x80DC468671316E50D4E9023D3db38D3105c1C146",
-      "id": "xaavea",
-      "name": "xAAVE",
-      "symbol": "xAAVEa",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#387080",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x704De5696dF237c5B9ba0De9ba7e0C63dA8eA0Df": {
-      "address": "0x704De5696dF237c5B9ba0De9ba7e0C63dA8eA0Df",
-      "id": "xaaveb",
-      "name": "xAAVE",
-      "symbol": "xAAVEb",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#8b5580",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0x0b38210ea11411557c13457D4dA7dC6ea731B88a": {
       "address": "0x0b38210ea11411557c13457D4dA7dC6ea731B88a",
@@ -4168,17 +3607,6 @@
       "color": "#666092",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
-    },
-    "0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5": {
-      "address": "0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5",
-      "id": "renfil",
-      "name": "renFIL",
-      "symbol": "renFIL",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#6f6776",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0x111111111117dC0aa78b770fA6A738034120C302": {
       "address": "0x111111111117dC0aa78b770fA6A738034120C302",
@@ -4419,17 +3847,6 @@
       "decimals": 18,
       "precision": 3,
       "color": "#416aa3",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033": {
-      "address": "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033",
-      "id": "piedao-defi",
-      "name": "PieDAO DEFI++",
-      "symbol": "DEFI++",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#be955c",
       "hasIcon": false,
       "logoUrl": ""
     },
@@ -4708,17 +4125,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x48Fb253446873234F2fEBbF9BdeAA72d9d387f94": {
-      "address": "0x48Fb253446873234F2fEBbF9BdeAA72d9d387f94",
-      "id": "bancor-governance-token",
-      "name": "Bancor Governance Token",
-      "symbol": "vBNT",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#387080",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
     "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421": {
       "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
       "id": "vesper-finance",
@@ -4906,17 +4312,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0": {
-      "address": "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0",
-      "id": "",
-      "name": "Redeemable DAI",
-      "symbol": "rDAI",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#68aca9",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0/logo.png"
-    },
     "0xE5F166c0D8872B68790061317BB6CcA04582C912": {
       "address": "0xE5F166c0D8872B68790061317BB6CcA04582C912",
       "id": "",
@@ -5055,7 +4450,7 @@
       "name": "swap",
       "name-en": "Swap",
       "name-zh": "兑换",
-      "href": "https://swap.xdefi.com/"
+      "href": "https://swap.xdefi.com/#/swap"
     },
     {
       "name": "pool",
@@ -5067,13 +4462,13 @@
       "name": "farm",
       "name-en": "Farm",
       "name-zh": "挖矿",
-      "href": "https://farm.xdefi.com/"
+      "href": "https://farm.xdefi.com/#/"
     },
     {
       "name": "halfLife",
       "name-en": "HalfLife",
       "name-zh": "HalfLife",
-      "href": "https://halfLife.xdefi.com/#/"
+      "href": "https://xhalfLife.xdefi.com/#/"
     },
     {
       "name": "stat",
@@ -5090,7 +4485,7 @@
           "name": "referrer",
           "name-en": "Referrer",
           "name-zh": "邀请奖励",
-          "href": "https://activity.xdefi.com/referrer"
+          "href": "https://activity.xdefi.com/#/referrer"
         }
       ]
     }

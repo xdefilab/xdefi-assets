@@ -40,7 +40,7 @@ async function generate(lists, data, metadata) {
         }else{
             return {
                 ...nav,
-                href: nav.href.replace('kovan.','')
+                href: nav.name === 'halfLife' ? 'https://xhalflife.xdefi.com/#/': nav.href.replace('kovan.','')
             }
         }
     });
@@ -101,18 +101,39 @@ async function generateNetwork(network, lists, data, metadata, basis, navs) {
             logoUrl: getLogoUrl(data.assets, address),
         };
     }
+
+    const invalidStart = ['c', 'a', 'u', 'y', 'm', 'r', 'v', 'x', 'z', 'n'];
+    const invalidContains = ['++', '+'] 
+
+
+    const filterListTokens = Object.keys(listedTokens).filter(token => !(invalidStart.includes(listedTokens[token].symbol.slice(0,1))  || invalidContains.some(reg => listedTokens[token].symbol.includes(reg))))
+    const filterListTokenMetas = filterListTokens.reduce((all, current, index) => {
+        return {
+            ...all,
+            [current]: listedTokens[current]
+        }
+    },{})
+    const filterUiTokens = Object.keys(uiTokens).filter(token => !(invalidStart.includes(uiTokens[token].symbol.slice(0,1))  || invalidContains.some(reg => uiTokens[token].symbol.includes(reg))))
+    const filterUiTokenMetas = filterUiTokens.reduce((all, current, index) => {
+        return {
+            ...all,
+            [current]: uiTokens[current]
+        }
+    },{})
+
     const dexData = {
-        tokens: listedTokens,
+        tokens: filterListTokenMetas,
         untrusted,
         ...basis, 
         navs
     };
     const pmData = {
-        tokens: uiTokens,
+        tokens: filterUiTokenMetas,
         untrusted,
         ...basis, 
         navs
     };
+
     const dexFileName = `generated/dex/registry.${network}.json`;
     await fs.writeFileSync(dexFileName, JSON.stringify(dexData, null, 4));
     const pmFileName = `generated/pm/registry.${network}.json`;

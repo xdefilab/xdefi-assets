@@ -207,7 +207,7 @@
             "name": "swap",
             "name-en": "Swap",
             "name-zh": "兑换",
-            "href": "https://swap.kovan.xdefi.com/"
+            "href": "https://swap.kovan.xdefi.com/#/swap"
         },
         {
             "name": "pool",
@@ -219,7 +219,7 @@
             "name": "farm",
             "name-en": "Farm",
             "name-zh": "挖矿",
-            "href": "https://farm.kovan.xdefi.com/"
+            "href": "https://farm.kovan.xdefi.com/#/"
         },
         {
             "name": "halfLife",
@@ -242,13 +242,13 @@
                     "name": "referrer",
                     "name-en": "Referrer",
                     "name-zh": "邀请奖励",
-                    "href": "https://activity.kovan.xdefi.com/referrer"
+                    "href": "https://activity.kovan.xdefi.com/#/referrer"
                 },
                 {
                     "name": "faucet",
                     "name-en": "Faucet",
                     "name-zh": "水龙头",
-                    "href": "https://activity.kovan.xdefi.com/faucet"
+                    "href": "https://activity.kovan.xdefi.com/#/faucet"
                 },
                 {
                     "name": "bug",
