@@ -5,7 +5,7 @@
   "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefidex",
   "halilifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xhalflife",
   "alchemyWsUrl": "wss://eth-mainnet.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
-  "infuraApi":"https://api.xdefi.com/v3/api",
+  "infuraApi":"https://api.xdefi.com",
   "addresses": {
     "xPool": "0x29E896348c4CDC3E01D514dDa06c327A56732d7D",
     "xFactory": "0x23C088198347edb873946FCff77E42401a1A93d2",
@@ -16,7 +16,7 @@
     "farmMaster": "0x9b3aaE4283C11eB463A55Cbd56F552346c2fCb4E",
     "XdexStream": "0xF1626D568438Df7048e3DD0B904870b5f2712Df2",
     "multicall": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
-    "dai":"0xde99c79533eeb1897d1d12df3e5437d498ba82a6"
+    "dai":"0x6B175474E89094C44Da98b954EedeAC495271d0F"
 },
   "connectors": {
       "injected": {

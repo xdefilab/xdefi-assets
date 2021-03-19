@@ -202,11 +202,9 @@ async function getMetadata(tokens, overwrite) {
 }
 
 async function getNetworkMetadata(network, tokens, overwrite) {
-    const infuraKey = '32d3935c7ba0400d97a7d8f983753a34';
-
     const providers = {
-        kovan: new ethers.providers.InfuraProvider('kovan', infuraKey),
-        homestead: new ethers.providers.InfuraProvider('homestead', infuraKey),
+        kovan: new ethers.providers.JsonRpcProvider('https://api.kovan.xdefi.com/v3/api'),
+        homestead: new ethers.providers.JsonRpcProvider("https://api.xdefi.com"),
     };
 
     const multicallContract = {

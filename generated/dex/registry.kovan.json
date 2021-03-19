@@ -194,7 +194,7 @@
         "farmMaster": "0xec76B09138D7A904aE94aE6Ca079d885C5f1570F",
         "XdexStream": "0x8207288902c13827EA5cf981825dfc4f32D8c021",
         "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A",
-        "dai": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "dai": "0xde99c79533eeb1897d1d12df3e5437d498ba82a6"
     },
     "connectors": {
         "injected": {
@@ -225,7 +225,7 @@
             "name": "halfLife",
             "name-en": "HalfLife",
             "name-zh": "HalfLife",
-            "href": "https://halfLife.kovan.xdefi.com/#/"
+            "href": "https://halflife.kovan.xdefi.com/#/"
         },
         {
             "name": "stat",
