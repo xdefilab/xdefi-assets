@@ -3979,8 +3979,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#c5ccb8",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3/logo.png"
     },
     "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de": {
       "address": "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de",
@@ -4434,8 +4434,8 @@
     "weth": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "xHalfLife": "0x92aFb2D65466FeeC2d608484287F8A05984A6344",
     "xdex": "0x000000000000d0151E748d25b766e77efe2A6c83",
-    "farmMaster": "0x9b3aaE4283C11eB463A55Cbd56F552346c2fCb4E",
-    "XdexStream": "0xF1626D568438Df7048e3DD0B904870b5f2712Df2",
+    "farmMaster": "0x7f478b6c313cAE4d36c1A6c0FB7c366b441BDE58",
+    "XdexStream": "0xFEd9dA4609d20CfAcBe77AB2531326760704eA55",
     "multicall": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
     "dai": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
   },
