@@ -17,11 +17,20 @@
     "XdexStream": "0xFEd9dA4609d20CfAcBe77AB2531326760704eA55",
     "multicall": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
     "dai":"0x6B175474E89094C44Da98b954EedeAC495271d0F"
-},
+  },
   "connectors": {
-      "injected": {
-          "id": "injected",
-          "name": "MetaMask"
+    "injected": {
+      "id": "injected",
+      "name": "MetaMask"
+    },
+    "walletconnect": {
+      "id": "walletconnect",
+      "name": "Walletconnect",
+      "options":{
+        "rpc": {
+          "1": "https://api.xdefi.com"
+        }
       }
+    }
   }
 }

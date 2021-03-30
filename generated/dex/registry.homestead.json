@@ -544,8 +544,17 @@
     },
     "connectors": {
         "injected": {
-            "id": "injected",
-            "name": "MetaMask"
+          "id": "injected",
+          "name": "MetaMask"
+        },
+        "walletconnect": {
+          "id": "walletconnect",
+          "name": "Walletconnect",
+          "options":{
+            "rpc": {
+              "1": "https://api.xdefi.com"
+            }
+          }
         }
     },
     "navs": [
