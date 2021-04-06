@@ -598,6 +598,12 @@
             "href": "https://stat.xdefi.com/#/"
         },
         {
+            "name":"forum",
+            "name-en": "Forum",
+            "name-zh": "论坛",
+            "href":"https://community.xdefi.com/"
+        },
+        {
             "name": "more",
             "name-en": "More",
             "name-zh": "更多",
