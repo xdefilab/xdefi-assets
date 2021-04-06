@@ -458,6 +458,15 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3/logo.png"
+        },
+        "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d": {
+            "address": "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d",
+            "name": "Dorayaki",
+            "symbol": "DORA",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         }
     },
     "untrusted": [
@@ -544,17 +553,17 @@
     },
     "connectors": {
         "injected": {
-          "id": "injected",
-          "name": "MetaMask"
+            "id": "injected",
+            "name": "MetaMask"
         },
         "walletconnect": {
-          "id": "walletconnect",
-          "name": "Walletconnect",
-          "options":{
-            "rpc": {
-              "1": "https://api.xdefi.com"
+            "id": "walletconnect",
+            "name": "Walletconnect",
+            "options": {
+                "rpc": {
+                    "1": "https://api.xdefi.com"
+                }
             }
-          }
         }
     },
     "navs": [

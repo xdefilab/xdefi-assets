@@ -4180,6 +4180,17 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C/logo.png"
     },
+    "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d": {
+      "address": "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d",
+      "id": "",
+      "name": "Dorayaki",
+      "symbol": "DORA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4265,8 +4276,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#7cb5d6",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa0afAA285Ce85974c3C881256cB7F225e3A1178a/logo.png"
     },
     "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A": {
       "address": "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A",
@@ -4447,7 +4458,7 @@
     "walletconnect": {
       "id": "walletconnect",
       "name": "Walletconnect",
-      "options":{
+      "options": {
         "rpc": {
           "1": "https://api.xdefi.com"
         }

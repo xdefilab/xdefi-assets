@@ -1,6 +1,6 @@
 {
     "name": "XDeFi",
-    "timestamp": "2021-03-19T00:00:00.000Z",
+    "timestamp": "2021-04-06T00:00:00.000Z",
     "logoURI": "",
     "keywords": [
         "xdefi",
@@ -3354,6 +3354,13 @@
             "symbol": "KYL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
+        },
+        {
+            "address": "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d",
+            "chainId": 1,
+            "name": "Dorayaki",
+            "symbol": "DORA",
+            "decimals": 18
         },
         {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
