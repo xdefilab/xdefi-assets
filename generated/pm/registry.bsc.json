@@ -1,0 +1,145 @@
+{
+  "tokens": {
+      "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
+        "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "name": "BTCB Token",
+        "id":"wrapped-bitcoin",
+        "symbol": "BTCB",
+        "decimals": 18,
+        "precision": 4,
+        "hasIcon": true,
+        "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/logo.png"
+    },
+    "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56": {
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "name": "BUSD Token",
+        "id":"tether",
+        "symbol": "BUSD",
+        "decimals": 18,
+        "precision": 2,
+        "hasIcon": true,
+        "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png"
+    },
+    "0x55d398326f99059fF775485246999027B3197955": {
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "name": "Tether USD",
+        "id":"tether",
+        "symbol": "USDT",
+        "decimals": 18,
+        "precision": 2,
+        "hasIcon": true,
+        "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+    },
+    "0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
+        "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "name": "Ethereum Token",
+        "id":"ethereum",
+        "symbol": "ETH",
+        "decimals": 18,
+        "precision": 2,
+        "hasIcon": true,
+        "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/logo.png"
+    },
+    "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402": {
+        "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+        "name": "Polkadot Token",
+        "id":"polkadot",
+        "symbol": "DOT",
+        "decimals": 18,
+        "precision": 2,
+        "hasIcon": true,
+        "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402/logo.png"
+    },
+    "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
+        "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "name": "USD Coin",
+        "id":"usd-coin",
+        "symbol": "USDC",
+        "decimals": 18,
+        "precision": 2,
+        "hasIcon": true,
+        "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/logo.png"
+    }
+  },
+  "untrusted": [
+    "0xbef02f140BFb37a75Ed6510e8D85C9E9e7e0ff1e",
+    "0xe7d8E7742ca6906a14F7e46770Fdfe6B7014e62D",
+    "0xEC4b4fFfb58B6c85D41025b07d93167B8192062E"
+  ],
+  "network": "bsc",
+  "chainId": 56,
+  "defaultPrecision": 2,
+  "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefibsctestv1",
+  "halflifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xhalflifebsctestv1",
+  "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
+  "infuraApi":"https://bsc-dataseed1.binance.org",
+  "addresses": {
+      "xPool": "0x7eea3DDA9CFc0e5D5Ee827Ed5a5d6496D52f81BB",
+      "xFactory": "0xD35bc3776D5e1888a6C043D1A4A940E8C1D89500",
+      "xSwapProxy": "0x0E51Daf0B1b670912171dC766CBE86D2b4fF9639",
+      "weth": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "xHalfLife": "0x4614777bA8a2C0D1fB60EC5149585e700a08974a",
+      "xdex": "0xaDF208F868d044747059a991C92bda38A9d2C658",
+      "farmMaster": "0x44852F9B39668cE49C1762d6f64bb9F1F62D7032",
+      "XdexStream": "0x35904e869641fB0BDe8F6FcF05f1574ed8CCF581",
+      "multicall": "0xf4BA44f4c85c6acE52f8D5c3Fd9a101170989112",
+      "dai":"0xde99c79533eeb1897d1d12df3e5437d498ba82a6"
+  },
+  "connectors": {
+      "injected": {
+          "id": "injected",
+          "name": "MetaMask"
+      }
+  },
+  "navs": [
+    {
+        "name": "swap",
+        "name-en": "Swap",
+        "name-zh": "兑换",
+        "href": "https://swap.xdefi.com/#/swap"
+    },
+    {
+        "name": "pool",
+        "name-en": "Pool",
+        "name-zh": "资金池",
+        "href": "https://pool.xdefi.com/#/"
+    },
+    {
+        "name": "farm",
+        "name-en": "Farm",
+        "name-zh": "挖矿",
+        "href": "https://farm.xdefi.com/#/"
+    },
+    {
+        "name": "halfLife",
+        "name-en": "HalfLife",
+        "name-zh": "HalfLife",
+        "href": "https://xhalflife.xdefi.com/#/"
+    },
+    {
+        "name": "stat",
+        "name-en": "Stat",
+        "name-zh": "统计",
+        "href": "https://stat.xdefi.com/#/"
+    },
+    {
+        "name":"forum",
+        "name-en": "Forum",
+        "name-zh": "论坛",
+        "href":"https://community.xdefi.com/"
+    },
+    {
+        "name": "more",
+        "name-en": "More",
+        "name-zh": "更多",
+        "childrens": [
+            {
+                "name": "referrer",
+                "name-en": "Referrer",
+                "name-zh": "邀请奖励",
+                "href": "https://activity.xdefi.com/#/referrer"
+            }
+        ]
+    }
+  ]
+}

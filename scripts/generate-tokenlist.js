@@ -8,7 +8,9 @@ const erc20 = require('../abi/ERC20.json');
 
 async function run() {
     try {
+        console.debug('-------------------','getData')
         const data = await getData();
+        console.debug('-------------------','getData done')
 
         const listedFile = await fs.readFileSync('lists/listed.json');
         const listed = JSON.parse(listedFile);

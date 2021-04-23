@@ -10,12 +10,25 @@ const DEFAULT_PRECISION = 3;
 
 async function run() {
     try {
+        console.debug('-------------------','getLists')
         const lists = await getLists();
+        console.debug('-------------------','getLists done')
+        
+        console.debug('-------------------','getData')
         const data = await getData();
+        console.debug('-------------------','getData done')
+        console.debug('-------------------','verifyInputs')
         verifyInputs(lists);
+        console.debug('-------------------','verifyInputs done')
+        console.debug('-------------------','mergeTokenLists')
         const tokens = mergeTokenLists(lists);
+        console.debug('-------------------','mergeTokenLists done')
+        console.debug('-------------------','getMetadata')
         const metadata = await getMetadata(tokens, data.metadataOverwrite);
+        console.debug('-------------------','mergeTokenLists done')
+        console.debug('-------------------','generate')
         await generate(lists, data, metadata);
+        console.debug('-------------------','generate done')
     } catch (e) {
         console.error(e);
         process.exit(1);
@@ -26,9 +39,11 @@ async function generate(lists, data, metadata) {
     const excludeNavs = ['bug', 'faucet'];
     const basisKovanFile = await fs.readFileSync('data/basis-kovan.json');
     const basisHomesteadFile = await fs.readFileSync('data/basis-homestead.json');
+    const basisBscFile = await fs.readFileSync('data/basis-bsc.json');
     const navsFile = await fs.readFileSync('ui/navs.json');
     const basisKovan = JSON.parse(basisKovanFile);
     const basisHomestead = JSON.parse(basisHomesteadFile);
+    const basisBsc = JSON.parse(basisBscFile);
     const navs = JSON.parse(navsFile);
     const homesteadNavs = navs.map(nav => {
         if(nav.childrens){
@@ -46,6 +61,7 @@ async function generate(lists, data, metadata) {
     });
     await generateNetwork('kovan', lists, data, metadata, basisKovan, navs);
     await generateNetwork('homestead', lists, data, metadata, basisHomestead, homesteadNavs);
+    await generateNetwork('bsc', lists, data, metadata, basisBsc, homesteadNavs);
 }
 
 async function generateNetwork(network, lists, data, metadata, basis, navs) {
@@ -194,21 +210,25 @@ async function getData() {
 async function getMetadata(tokens, overwrite) {
     const kovan = await getNetworkMetadata('kovan', tokens.kovan, overwrite.kovan);
     const homestead = await getNetworkMetadata('homestead', tokens.homestead, overwrite.homestead);
+    const bsc = await getNetworkMetadata('bsc', tokens.bsc, overwrite.bsc);
 
     return {
         kovan,
         homestead,
+        bsc
     };
 }
 
 async function getNetworkMetadata(network, tokens, overwrite) {
     const providers = {
         kovan: new ethers.providers.JsonRpcProvider('https://api.kovan.xdefi.com/v3/api'),
+        bsc: new ethers.providers.JsonRpcProvider('https://bsc-dataseed1.binance.org'),
         homestead: new ethers.providers.JsonRpcProvider("https://api.xdefi.com"),
     };
 
     const multicallContract = {
         kovan: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
+        bsc:'0xf4BA44f4c85c6acE52f8D5c3Fd9a101170989112',
         homestead: '0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441',
     };
 
@@ -225,6 +245,7 @@ async function getNetworkMetadata(network, tokens, overwrite) {
     });
     const tokenMetadata = {};
     const [, response] = await multi.aggregate(calls);
+    console.debug(`------------------${network}`, response);
     for (let i = 0; i < tokens.length; i++) {
         const address = tokens[i];
         if (address in overwrite) {
@@ -240,6 +261,7 @@ async function getNetworkMetadata(network, tokens, overwrite) {
             name
         };
     }
+    console.debug('------------------',network, 'done')
     return tokenMetadata;
 }
 
@@ -289,6 +311,7 @@ function getMainnetAddress(address) {
 function mergeTokenLists(lists) {
     const kovan = [];
     const homestead = [];
+    const bsc = [];
 
     for (const datasetName in lists) {
         if (datasetName === 'untrusted') {
@@ -310,6 +333,12 @@ function mergeTokenLists(lists) {
         } else {
             dataset_homestead = Object.keys(dataset.homestead);
         }
+        let dataset_bsc = [];
+        if (dataset.dataset_bsc instanceof Array) {
+            dataset_bsc = dataset.bsc;
+        } else {
+            dataset_bsc = Object.keys(dataset.bsc);
+        }
 
         for (const token of dataset_kovan) {
             kovan.push(token);
@@ -318,17 +347,23 @@ function mergeTokenLists(lists) {
         for (const token of dataset_homestead) {
             homestead.push(token);
         }
+
+        for (const token of dataset_homestead) {
+            bsc.push(token);
+        }
     }
 
     return {
         kovan,
         homestead,
+        bsc,
     };
 }
 
 function verifyInputs(lists) {
     verifyNetworkInputs(lists, 'kovan');
     verifyNetworkInputs(lists, 'homestead');
+    verifyNetworkInputs(lists, 'bsc');
 }
 
 function verifyNetworkInputs(lists, network) {
