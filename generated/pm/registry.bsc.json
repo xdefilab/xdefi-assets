@@ -59,6 +59,16 @@
         "precision": 2,
         "hasIcon": true,
         "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/logo.png"
+    },
+    "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3": {
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "name": "Dai Token",
+      "id":"dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "precision": 2,
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3/logo.png"
     }
   },
   "untrusted": [
