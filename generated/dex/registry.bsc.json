@@ -70,14 +70,14 @@
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3/logo.png"
         },
-        "0xbC79CC3939eB50c1A949Ea3a99Ff6f61a6b5f6D8": {
-            "address": "0xbC79CC3939eB50c1A949Ea3a99Ff6f61a6b5f6D8",
+        "0x47f46484A8D7573e07513B6e6b2BDC4f748Ba294": {
+            "address": "0x47f46484A8D7573e07513B6e6b2BDC4f748Ba294",
             "name": "XDEFI Governance Token",
             "symbol": "XDEX",
             "decimals": 18,
             "precision": 2,
             "hasIcon": true,
-            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0xbC79CC3939eB50c1A949Ea3a99Ff6f61a6b5f6D8/logo.png"
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x47f46484A8D7573e07513B6e6b2BDC4f748Ba294/logo.png"
         }
     },
     "untrusted": [
