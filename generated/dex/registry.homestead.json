@@ -536,7 +536,7 @@
     "chainId": 1,
     "defaultPrecision": 2,
     "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xdefidex",
-    "halilifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xhalflife",
+    "halflifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/xhalflife",
     "alchemyWsUrl": "wss://eth-mainnet.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
     "infuraApi": "https://api.xdefi.com",
     "addresses": {

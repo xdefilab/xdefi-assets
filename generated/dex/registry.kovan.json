@@ -181,7 +181,7 @@
     "chainId": 42,
     "defaultPrecision": 2,
     "subgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/basekovanv3",
-    "halilifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/halflifekovanv3",
+    "halflifeSubgraphUrl": "https://api.thegraph.com/subgraphs/name/xdefilab/halflifekovanv3",
     "alchemyWsUrl": "wss://eth-kovan.ws.alchemyapi.io/v2/wL-G8V2Xi7zwdno_jh5vJXNE9b_bJIGn",
     "infuraApi": "https://api.kovan.xdefi.com/v3/api",
     "addresses": {
