@@ -93,6 +93,7 @@
     "0x47f46484A8D7573e07513B6e6b2BDC4f748Ba294": {
       "address": "0x47f46484A8D7573e07513B6e6b2BDC4f748Ba294",
       "name": "XDEFI Governance Token",
+      "id": "xdefi-governance-token",
       "symbol": "XDEX",
       "decimals": 18,
       "precision": 2,
