@@ -1,5 +1,25 @@
 {
   "tokens": {
+    "ether": {
+        "address": "ether",
+        "name": "Binanace coin",
+        "id":"binancecoin",
+        "symbol": "BNB",
+        "decimals": 18,
+        "precision": 4,
+        "hasIcon": true,
+        "logoUrl": "https://static.xdefi.net/blockchains/smartchain/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png"
+    },
+    "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "name": "Wrapped Binanace coin",
+        "id":"binancecoin",
+        "symbol": "WBNB",
+        "decimals": 18,
+        "precision": 4,
+        "hasIcon": true,
+        "logoUrl": "https://static.xdefi.net/blockchains/smartchain/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png"
+    },
       "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
         "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "name": "BTCB Token",
